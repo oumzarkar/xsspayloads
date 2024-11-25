@@ -1,0 +1,32 @@
+<dd draggable="true" ondrag="alert(1)">test</dd>
+<dd draggable="true" ondragend="alert(1)">test</dd>
+<dd draggable="true" ondragenter="alert(1)">test</dd>
+<dd draggable="true" ondragleave="alert(1)">test</dd>
+<dd draggable="true" ondragstart="alert(1)">test</dd>
+<dd id=x tabindex=1 onactivate=alert(1)></dd>
+<dd id=x tabindex=1 onbeforeactivate=alert(1)></dd>
+<dd id=x tabindex=1 onbeforedeactivate=alert(1)></dd><input autofocus>
+<dd id=x tabindex=1 ondeactivate=alert(1)></dd><input id=y autofocus>
+<dd id=x tabindex=1 onfocus=alert(1)></dd>
+<dd id=x tabindex=1 onfocusin=alert(1)></dd>
+<dd onbeforecopy="alert(1)" contenteditable>test</dd>
+<dd onbeforecut="alert(1)" contenteditable>test</dd>
+<dd onbeforepaste="alert(1)" contenteditable>test</dd>
+<dd onblur=alert(1) tabindex=1 id=x></dd><input autofocus>
+<dd onclick="alert(1)">test</dd>
+<dd oncontextmenu="alert(1)">test</dd>
+<dd oncopy="alert(1)" contenteditable>test</dd>
+<dd oncut="alert(1)" contenteditable>test</dd>
+<dd ondblclick="alert(1)">test</dd>
+<dd onfocusout=alert(1) tabindex=1 id=x></dd><input autofocus>
+<dd onkeydown="alert(1)" contenteditable>test</dd>
+<dd onkeypress="alert(1)" contenteditable>test</dd>
+<dd onkeyup="alert(1)" contenteditable>test</dd>
+<dd onmousedown="alert(1)">test</dd>
+<dd onmouseenter="alert(1)">test</dd>
+<dd onmouseleave="alert(1)">test</dd>
+<dd onmousemove="alert(1)">test</dd>
+<dd onmouseout="alert(1)">test</dd>
+<dd onmouseover="alert(1)">test</dd>
+<dd onmouseup="alert(1)">test</dd>
+<dd onpaste="alert(1)" contenteditable>test</dd>

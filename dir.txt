@@ -1,0 +1,32 @@
+<dir draggable="true" ondrag="alert(1)">test</dir>
+<dir draggable="true" ondragend="alert(1)">test</dir>
+<dir draggable="true" ondragenter="alert(1)">test</dir>
+<dir draggable="true" ondragleave="alert(1)">test</dir>
+<dir draggable="true" ondragstart="alert(1)">test</dir>
+<dir id=x tabindex=1 onactivate=alert(1)></dir>
+<dir id=x tabindex=1 onbeforeactivate=alert(1)></dir>
+<dir id=x tabindex=1 onbeforedeactivate=alert(1)></dir><input autofocus>
+<dir id=x tabindex=1 ondeactivate=alert(1)></dir><input id=y autofocus>
+<dir id=x tabindex=1 onfocus=alert(1)></dir>
+<dir id=x tabindex=1 onfocusin=alert(1)></dir>
+<dir onbeforecopy="alert(1)" contenteditable>test</dir>
+<dir onbeforecut="alert(1)" contenteditable>test</dir>
+<dir onbeforepaste="alert(1)" contenteditable>test</dir>
+<dir onblur=alert(1) tabindex=1 id=x></dir><input autofocus>
+<dir onclick="alert(1)">test</dir>
+<dir oncontextmenu="alert(1)">test</dir>
+<dir oncopy="alert(1)" contenteditable>test</dir>
+<dir oncut="alert(1)" contenteditable>test</dir>
+<dir ondblclick="alert(1)">test</dir>
+<dir onfocusout=alert(1) tabindex=1 id=x></dir><input autofocus>
+<dir onkeydown="alert(1)" contenteditable>test</dir>
+<dir onkeypress="alert(1)" contenteditable>test</dir>
+<dir onkeyup="alert(1)" contenteditable>test</dir>
+<dir onmousedown="alert(1)">test</dir>
+<dir onmouseenter="alert(1)">test</dir>
+<dir onmouseleave="alert(1)">test</dir>
+<dir onmousemove="alert(1)">test</dir>
+<dir onmouseout="alert(1)">test</dir>
+<dir onmouseover="alert(1)">test</dir>
+<dir onmouseup="alert(1)">test</dir>
+<dir onpaste="alert(1)" contenteditable>test</dir>

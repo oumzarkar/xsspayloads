@@ -1,0 +1,32 @@
+<address draggable="true" ondrag="alert(1)">test</address>
+<address draggable="true" ondragend="alert(1)">test</address>
+<address draggable="true" ondragenter="alert(1)">test</address>
+<address draggable="true" ondragleave="alert(1)">test</address>
+<address draggable="true" ondragstart="alert(1)">test</address>
+<address id=x tabindex=1 onactivate=alert(1)></address>
+<address id=x tabindex=1 onbeforeactivate=alert(1)></address>
+<address id=x tabindex=1 onbeforedeactivate=alert(1)></address><input autofocus>
+<address id=x tabindex=1 ondeactivate=alert(1)></address><input id=y autofocus>
+<address id=x tabindex=1 onfocus=alert(1)></address>
+<address id=x tabindex=1 onfocusin=alert(1)></address>
+<address onbeforecopy="alert(1)" contenteditable>test</address>
+<address onbeforecut="alert(1)" contenteditable>test</address>
+<address onbeforepaste="alert(1)" contenteditable>test</address>
+<address onblur=alert(1) tabindex=1 id=x></address><input autofocus>
+<address onclick="alert(1)">test</address>
+<address oncontextmenu="alert(1)">test</address>
+<address oncopy="alert(1)" contenteditable>test</address>
+<address oncut="alert(1)" contenteditable>test</address>
+<address ondblclick="alert(1)">test</address>
+<address onfocusout=alert(1) tabindex=1 id=x></address><input autofocus>
+<address onkeydown="alert(1)" contenteditable>test</address>
+<address onkeypress="alert(1)" contenteditable>test</address>
+<address onkeyup="alert(1)" contenteditable>test</address>
+<address onmousedown="alert(1)">test</address>
+<address onmouseenter="alert(1)">test</address>
+<address onmouseleave="alert(1)">test</address>
+<address onmousemove="alert(1)">test</address>
+<address onmouseout="alert(1)">test</address>
+<address onmouseover="alert(1)">test</address>
+<address onmouseup="alert(1)">test</address>
+<address onpaste="alert(1)" contenteditable>test</address>

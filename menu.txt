@@ -1,0 +1,66 @@
+<menu draggable="true" ondrag="alert(1)">test</menu>
+<menu draggable="true" ondragend="alert(1)">test</menu>
+<menu draggable="true" ondragenter="alert(1)">test</menu>
+<menu draggable="true" ondragleave="alert(1)">test</menu>
+<menu draggable="true" ondragstart="alert(1)">test</menu>
+<menu id=x contextmenu=x onshow=alert(154)>right click me!
+<menu id=x contextmenu=x onshow=alert(1)>right click me!
+<menu id=x tabindex=1 onactivate=alert(1)></menu>
+<menu id=x tabindex=1 onbeforeactivate=alert(1)></menu>
+<menu id=x tabindex=1 onbeforedeactivate=alert(1)></menu><input autofocus>
+<menu id=x tabindex=1 ondeactivate=alert(1)></menu><input id=y autofocus>
+<menu id=x tabindex=1 onfocus=alert(1)></menu>
+<menu id=x tabindex=1 onfocusin=alert(1)></menu>
+<menuitem draggable="true" ondrag="alert(1)">test</menuitem>
+<menuitem draggable="true" ondragend="alert(1)">test</menuitem>
+<menuitem draggable="true" ondragenter="alert(1)">test</menuitem>
+<menuitem draggable="true" ondragleave="alert(1)">test</menuitem>
+<menuitem draggable="true" ondragstart="alert(1)">test</menuitem>
+<menuitem id=x tabindex=1 onactivate=alert(1)></menuitem>
+<menuitem id=x tabindex=1 onbeforeactivate=alert(1)></menuitem>
+<menuitem id=x tabindex=1 onbeforedeactivate=alert(1)></menuitem><input autofocus>
+<menuitem id=x tabindex=1 ondeactivate=alert(1)></menuitem><input id=y autofocus>
+<menuitem id=x tabindex=1 onfocus=alert(1)></menuitem>
+<menuitem id=x tabindex=1 onfocusin=alert(1)></menuitem>
+<menuitem onbeforecopy="alert(1)" contenteditable>test</menuitem>
+<menuitem onbeforecut="alert(1)" contenteditable>test</menuitem>
+<menuitem onbeforepaste="alert(1)" contenteditable>test</menuitem>
+<menuitem onblur=alert(1) tabindex=1 id=x></menuitem><input autofocus>
+<menuitem onclick="alert(1)">test</menuitem>
+<menuitem oncontextmenu="alert(1)">test</menuitem>
+<menuitem oncopy="alert(1)" contenteditable>test</menuitem>
+<menuitem oncut="alert(1)" contenteditable>test</menuitem>
+<menuitem ondblclick="alert(1)">test</menuitem>
+<menuitem onfocusout=alert(1) tabindex=1 id=x></menuitem><input autofocus>
+<menuitem onkeydown="alert(1)" contenteditable>test</menuitem>
+<menuitem onkeypress="alert(1)" contenteditable>test</menuitem>
+<menuitem onkeyup="alert(1)" contenteditable>test</menuitem>
+<menuitem onmousedown="alert(1)">test</menuitem>
+<menuitem onmouseenter="alert(1)">test</menuitem>
+<menuitem onmouseleave="alert(1)">test</menuitem>
+<menuitem onmousemove="alert(1)">test</menuitem>
+<menuitem onmouseout="alert(1)">test</menuitem>
+<menuitem onmouseover="alert(1)">test</menuitem>
+<menuitem onmouseup="alert(1)">test</menuitem>
+<menuitem onpaste="alert(1)" contenteditable>test</menuitem>
+<menu onbeforecopy="alert(1)" contenteditable>test</menu>
+<menu onbeforecut="alert(1)" contenteditable>test</menu>
+<menu onbeforepaste="alert(1)" contenteditable>test</menu>
+<menu onblur=alert(1) tabindex=1 id=x></menu><input autofocus>
+<menu onclick="alert(1)">test</menu>
+<menu oncontextmenu="alert(1)">test</menu>
+<menu oncopy="alert(1)" contenteditable>test</menu>
+<menu oncut="alert(1)" contenteditable>test</menu>
+<menu ondblclick="alert(1)">test</menu>
+<menu onfocusout=alert(1) tabindex=1 id=x></menu><input autofocus>
+<menu onkeydown="alert(1)" contenteditable>test</menu>
+<menu onkeypress="alert(1)" contenteditable>test</menu>
+<menu onkeyup="alert(1)" contenteditable>test</menu>
+<menu onmousedown="alert(1)">test</menu>
+<menu onmouseenter="alert(1)">test</menu>
+<menu onmouseleave="alert(1)">test</menu>
+<menu onmousemove="alert(1)">test</menu>
+<menu onmouseout="alert(1)">test</menu>
+<menu onmouseover="alert(1)">test</menu>
+<menu onmouseup="alert(1)">test</menu>
+<menu onpaste="alert(1)" contenteditable>test</menu>

